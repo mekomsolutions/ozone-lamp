@@ -1,9 +1,9 @@
 <h1 align="center">
-  <a href="https://www.holyname.org/foundation/haitihealthpromise.aspx"><img src="https://lampforhaiti.org/wp-content/uploads/2022/09/lampforhaiti-scaled.jpeg" alt="Ozone Lamp" width="30%"/></a>
+  <a href="https://lampforhaiti.org/"><img src="https://lampforhaiti.org/wp-content/uploads/2022/09/lampforhaiti-scaled.jpeg" alt="Ozone Lamp" width="30%"/></a>
 </h1>
 
 <p align="center">
-    <b>Ozone Lamp</b> is a child distribution of <a href="https://www.ozone-his.com/case-studies/case-study-ht-1">Ozone Haiti</a> configured to address the needs of the Hôpital de Sacré-Coeur in Milot, Haiti.
+    <b>Ozone Lamp</b> is a child distribution of <a href="https://www.ozone-his.com/case-studies/case-study-ht-1">Ozone Haiti</a> configured to address the needs of the Lamp for Haiti project.
     <br/>
 </p>
 
