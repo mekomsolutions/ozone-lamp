@@ -20,9 +20,18 @@
 
     <ozone.artifactId>ozone-haiti</ozone.artifactId>
     <ozone.groupId>com.ozonehis</ozone.groupId>
+    <openmrsERPVersion>2.2.0-SNAPSHOT</openmrsERPVersion>
     <!-- Classifier for the dependency report artifact -->
     <dependencyReportClassifier>dependencies</dependencyReportClassifier>
   </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>erp-omod</artifactId>
+      <version>${openmrsERPVersion}</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
