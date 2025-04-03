@@ -1,219 +1,389 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ozonehis</groupId>
+        <artifactId>maven-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
     <groupId>com.ozonehis</groupId>
-    <artifactId>maven-parent</artifactId>
+    <artifactId>ozone-lamp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-  </parent>
 
-  <groupId>com.ozonehis</groupId>
-  <artifactId>ozone-lamp</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>8</maven.compiler.source>
-    <maven.compiler.target>8</maven.compiler.target>
+        <ozone.artifactId>ozone-haiti</ozone.artifactId>
+        <ozone.groupId>com.ozonehis</ozone.groupId>
 
-    <ozone.artifactId>ozone-haiti</ozone.artifactId>
-    <ozone.groupId>com.ozonehis</ozone.groupId>
-    <openmrsERPVersion>2.2.0-SNAPSHOT</openmrsERPVersion>
-    <!-- Classifier for the dependency report artifact -->
-    <dependencyReportClassifier>dependencies</dependencyReportClassifier>
-  </properties>
+        <openmrsERPVersion>2.2.0-SNAPSHOT</openmrsERPVersion>
+        <!-- Classifier for the dependency report artifact -->
+        <dependencyReportClassifier>dependencies</dependencyReportClassifier>
+    </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.openmrs.module</groupId>
-      <artifactId>erp-omod</artifactId>
-      <version>${openmrsERPVersion}</version>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>com.ozonehis</groupId>
+            <artifactId>ozone-pro</artifactId>
+            <type>zip</type>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>erp-omod</artifactId>
+            <version>${openmrsERPVersion}</version>
+        </dependency>
+    </dependencies>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-resources-plugin</artifactId>
-        <executions>
-          <execution>
-            <!-- Exclude files from Ozone -->
-            <id>Exclude unneeded Ozone files</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}</outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <directory>${project.build.directory}/ozone-haiti</directory>
-                  <excludes>
-                    <!-- Effectively disable inherited exclusions -->
-                    <exclude>non-existing_file</exclude>
-                  </excludes>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-dependency-plugin</artifactId>
-      </plugin>
-            <!-- Compile a dependency report -->
-       <plugin>
-        <groupId>net.mekomsolutions.maven.plugin</groupId>
-        <artifactId>dependency-tracker-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>Compile dependency report</id>
-            <phase>compile</phase>
-            <goals>
-              <goal>track</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <!-- Attach the dependency report to the build -->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <version>1.7</version>
-        <executions>
-          <execution>
-            <id>Attach the dependency report</id>
-            <phase>package</phase>
-            <goals>
-              <goal>attach-artifact</goal>
-            </goals>
-            <configuration>
-              <artifacts>
-                <artifact>
-                  <file>
-                    ${project.build.directory}/${project.artifactId}-${project.version}-dependencies.txt</file>
-                  <type>txt</type>
-                  <classifier>${dependencyReportClassifier}</classifier>
-                </artifact>
-              </artifacts>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-  <profiles>
-    <profile>
-      <id>validator</id>
-      <build>
+    <build>
         <plugins>
-          <!-- copy over merged/packaged OpenMRS config for validation at the integration-test phase -->
-          <plugin>
-            <artifactId>maven-antrun-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>Copy OpenMRS Initializer configs for validation</id>
-                <phase>pre-integration-test</phase>
-                <configuration>
-                  <target>
-                    <copy todir="${project.build.directory}/validator/configuration">
-                      <fileset
-                        dir="${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config" />
-                    </copy>
-                  </target>
-                </configuration>
-                <goals>
-                  <goal>run</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-          <!-- hooking the OpenMRS config validation to the integration-test phase -->
-          <plugin>
-            <groupId>org.openmrs.maven.plugins</groupId>
-            <artifactId>openmrs-packager-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>Validate OpenMRS Initializer configs</id>
-                <phase>integration-test</phase>
-                <goals>
-                  <goal>validate-configurations</goal>
-                </goals>
-                <configuration>
-                  <sourceDir>
-                    ${project.build.directory}/validator/configuration</sourceDir>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <!-- Exclude files from Ozone -->
+                        <id>Exclude unneeded Ozone files</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.build.directory}/ozone-haiti</directory>
+                                    <excludes>
+                                        <!-- Effectively disable inherited exclusions -->
+                                        <exclude>non-existing_file</exclude>
+                                    </excludes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy Central Auth and Monitoring Binary Resources -->
+                        <id>Copy Central Auth and Monitoring Resources</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-superset
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-superset/
+                                    </directory>
+                                </resource>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-openmrs
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-openmrs/
+                                    </directory>
+                                </resource>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-odoo
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-odoo/
+                                    </directory>
+                                </resource>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/openmrs/jmx_exporter
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter
+                                    </directory>
+                                </resource>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/jmx_exporter_config
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/configs/openmrs/jmx_exporter_config
+                                    </directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy Central Auth Configuration files -->
+                        <id>Copy Central Auth Configurations</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-superset
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-superset/
+                                    </directory>
+                                </resource>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-openmrs
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-openmrs/
+                                    </directory>
+                                </resource>
+                                <resource>
+                                    <targetPath>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-odoo
+                                    </targetPath>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-odoo/
+                                    </directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy Central Auth and Monitoring Docker Resources -->
+                        <id>Copy Central Auth and Monitoring Docker Resources</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/run/docker
+                                    </directory>
+                                    <includes>
+                                        <include>docker-compose-common-pro.yml</include>
+                                        <include>docker-compose-eip-keycloak-openmrs.yml</include>
+                                        <include>docker-compose-eip-keycloak-superset.yml</include>
+                                        <include>docker-compose-eip-keycloak-odoo.yml</include>
+                                        <include>docker-compose-openmrs-pro.yml</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy Central Auth EIP client Data file -->
+                        <id>Copy Central Auth EIP client Data file</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/${project.artifactId}-${project.version}/distro/data
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>
+                                        ${project.build.directory}/ozone-pro/distro/data
+                                    </directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>Unpack Ozone Pro</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <excludeTransitive>true</excludeTransitive>
+                            <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Compile a dependency report -->
+            <plugin>
+                <groupId>net.mekomsolutions.maven.plugin</groupId>
+                <artifactId>dependency-tracker-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>Compile dependency report</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>track</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Attach the dependency report to the build -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                        <id>Attach the dependency report</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>attach-artifact</goal>
+                        </goals>
+                        <configuration>
+                            <artifacts>
+                                <artifact>
+                                    <file>
+                                        ${project.build.directory}/${project.artifactId}-${project.version}-dependencies.txt
+                                    </file>
+                                    <type>txt</type>
+                                    <classifier>${dependencyReportClassifier}</classifier>
+                                </artifact>
+                            </artifacts>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
-      </build>
-    </profile>
-  </profiles>
-  <repositories>
-    <repository>
-      <id>mks-nexus-public</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
-    </repository>
-    <repository>
-      <id>openmrs-repo</id>
-      <name>OpenMRS Nexus Repository</name>
-      <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
-    </repository>
-    <repository>
-      <id>mks-nexus-private</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-private/</url>
-    </repository>
-  </repositories>
+    </build>
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>openmrs-repo</id>
-      <name>OpenMRS Nexus Repository</name>
-      <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>openmrs-snapshots</id>
-      <name>OpenMRS Public Repository</name>
-      <url>https://mavenrepo.openmrs.org/snapshots</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-    </pluginRepository>
-    <pluginRepository>
-      <id>mks-nexus-public</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
-    </pluginRepository>
-    <pluginRepository>
-      <id>mks-nexus-snapshots</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
-  <distributionManagement>
-    <repository>
-      <name>Mekom Solutions Nexus repo for releases</name>
-      <id>mks-nexus-public-releases</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-private-releases</url>
-    </repository>
-    <snapshotRepository>
-      <name>Mekom Solutions Nexus repo for snapshots</name>
-      <id>mks-nexus-public-snapshots</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-private-snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
+
+    <profiles>
+        <profile>
+            <id>validator</id>
+            <build>
+                <plugins>
+                    <!-- copy over merged/packaged OpenMRS config for validation at the integration-test phase -->
+                    <plugin>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>Copy OpenMRS Initializer configs for validation</id>
+                                <phase>pre-integration-test</phase>
+                                <configuration>
+                                    <target>
+                                        <copy todir="${project.build.directory}/validator/configuration">
+                                            <fileset
+                                                    dir="${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/initializer_config"/>
+                                        </copy>
+                                    </target>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- hooking the OpenMRS config validation to the integration-test phase -->
+                    <plugin>
+                        <groupId>org.openmrs.maven.plugins</groupId>
+                        <artifactId>openmrs-packager-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>Validate OpenMRS Initializer configs</id>
+                                <phase>integration-test</phase>
+                                <goals>
+                                    <goal>validate-configurations</goal>
+                                </goals>
+                                <configuration>
+                                    <sourceDir>
+                                        ${project.build.directory}/validator/configuration
+                                    </sourceDir>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+    <repositories>
+        <repository>
+            <id>mks-nexus-public</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>openmrs-repo</id>
+            <name>OpenMRS Nexus Repository</name>
+            <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
+        </repository>
+        <repository>
+            <id>mks-nexus-private</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-private/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>openmrs-repo</id>
+            <name>OpenMRS Nexus Repository</name>
+            <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>openmrs-snapshots</id>
+            <name>OpenMRS Public Repository</name>
+            <url>https://mavenrepo.openmrs.org/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </pluginRepository>
+        <pluginRepository>
+            <id>mks-nexus-public</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-public/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>mks-nexus-snapshots</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+    <distributionManagement>
+        <repository>
+            <name>Mekom Solutions Nexus repo for releases</name>
+            <id>mks-nexus-public-releases</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-private-releases</url>
+        </repository>
+        <snapshotRepository>
+            <name>Mekom Solutions Nexus repo for snapshots</name>
+            <id>mks-nexus-public-snapshots</id>
+            <url>https://nexus.mekomsolutions.net/repository/maven-private-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
