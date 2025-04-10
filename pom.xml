@@ -59,6 +59,10 @@
                                     <directory>${project.build.directory}/ozone-haiti</directory>
                                     <excludes>
                                         <exclude>distro/binaries/openmrs/modules/erp*</exclude>
+                                        <exclude>distro/binaries/openmrs/modules/orderexpansion*</exclude>
+                                        <exclude>distro/binaries/openmrs/modules/emrapi*</exclude>
+                                        <exclude>distro/binaries/openmrs/modules/event*</exclude>
+                                        <exclude>distro/binaries/openmrs/modules/bedmanagement*</exclude>
                                         <!-- Effectively disable inherited exclusions -->
                                         <exclude>non-existing_file</exclude>
                                     </excludes>
