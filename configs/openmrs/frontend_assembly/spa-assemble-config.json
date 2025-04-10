@@ -1,0 +1,12 @@
+{
+  "frontendModules": {
+    "@openmrs/esm-patient-programs-app": "9.2.3-pre.7268"
+  },
+  "__comment": "Lamp Overrides",
+  "frontendModuleExcludes": [
+    "@openmrs/openmrs-esm-stock-management",
+    "@mekomsolutions/esm-patient-billing-status-app",
+    "@mekomsolutions/esm-patient-medical-supply-orders-app",
+    "@openmrs/esm-bed-management-app"
+  ]
+}
