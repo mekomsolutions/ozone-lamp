@@ -6,6 +6,7 @@
   "frontendModuleExcludes": [
     "@openmrs/openmrs-esm-stock-management",
     "@mekomsolutions/esm-patient-billing-status-app",
-    "@mekomsolutions/esm-patient-medical-supply-orders-app"
+    "@mekomsolutions/esm-patient-medical-supply-orders-app",
+    "@openmrs/esm-bed-management-app"
   ]
 }
