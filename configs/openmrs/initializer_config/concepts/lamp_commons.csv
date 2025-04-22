@@ -1,0 +1,6 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:500
+66fec8dd-bf3e-4d85-b1d1-593d3160aa99,,,First Visit,First Visit,First Visit,First Visit,,,Misc,Coded,,,,,,,,,,,
+9546a93e-d198-4d52-a538-43ea739fe35d,,,Follow-up,Follow-up,Follow-up,Follow-up,,,Misc,Coded,,,,,,,,,,,
+f77cde11-0879-4cde-8d04-78be72835e63,,,At Home,At Home,At Home,At Home,,,Misc,Coded,,,,,,,,,,,
+4729ab28-0b9b-4ea3-8309-114d6bbe1e55,,,At Location,At Location,At Location,At Location,,,Misc,Coded,,,,,,,,,,,
+faa1735d-6246-4cfd-964f-5c8cc1dc03f1,,,Other,Other,Other,Other,,,Misc,Coded,,,,,,,,,,,
