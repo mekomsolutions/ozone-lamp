@@ -1,6 +1,2 @@
 Uuid,Void/Retire,Entity name,Name,display:en,display:fr,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config,_order:1000
-9833db14-8674-48a3-b5a3-25a07bc96d95,,Visit,First Visit,First Visit,First Visit,,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,66fec8dd-bf3e-4d85-b1d1-593d3160aa99,,,
-00c719f1-0214-41b1-b0f7-91f5c1fd128d,,Visit,Follow-up,Follow-up,Follow-up,,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,9546a93e-d198-4d52-a538-43ea739fe35d,,,
-a7fa258b-66b6-4862-ad88-7f681e94c028,,Visit,At Home,At Home,At Home,,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,f77cde11-0879-4cde-8d04-78be72835e63,,,
-f778e074-2ee3-4caa-9f8a-de63543927fc,,Visit,At Location,At Location,At Location,,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,4729ab28-0b9b-4ea3-8309-114d6bbe1e55,,,
-ed3c9ce6-edd2-4263-84ee-92526039480b,,Visit,Other,Other,Other,,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,faa1735d-6246-4cfd-964f-5c8cc1dc03f1,,,
+de5aef5f-74cc-4d36-b79e-0801f3f55bf6,,Visit,Visit attribute,Visit attribute,Visit attribute,The number of times the patient has visited the facility,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,d9e36c33-2334-4878-a64a-b61f8c654cfb,,,
