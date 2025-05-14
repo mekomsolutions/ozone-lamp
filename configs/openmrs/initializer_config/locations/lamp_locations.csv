@@ -1,7 +1,6 @@
 Uuid,Void/Retire,Name,display:en,display:fr,Description,Parent,Tags,Address 1,Address 2,Address 3,Address 4,Address 5,Address 6,City/Village,County/District,State/Province,Postal Code,Country
 849b0ccc-fd5e-4ece-af70-9cca5aa60e21,,Bois Neuf,Bois Neuf,Bois Neuf,,,Login Location; Visit Location,,,,,,,,,,,
 5bb0337e-b06c-4e65-ba7d-f78fa28abbc0,,Clercine,Clercine,Clercine,,,Login Location; Visit Location,,,,,,,,,,,
-489d966d-f39e-4c7d-9d95-d5ec4fa2b02c,,Clinique mobile,Mobile Clinic,Clinique mobile,,,Visit Location,,,,,,,,,,,
-6985f7f5-4366-4d42-963e-36b7ceead4c7,,Agent de santé,Agent de santé,Agent de santé,,,Visit Location,,,,,,,,,,,
-a1a89e3d-b5ae-42ba-90f2-80f30aaf16af,,Patient Home,Patient Home,Patient Home,,,Visit Location,,,,,,,,,,,
-80f00685-2f2f-42e5-a30b-0d343f64dd6a,,Other,Other,Other,,,Visit Location,,,,,,,,,,,
+489d966d-f39e-4c7d-9d95-d5ec4fa2b02c,,Mobile Clinic,Mobile Clinic,Clinique mobile,,,Visit Location,,,,,,,,,,,
+a1a89e3d-b5ae-42ba-90f2-80f30aaf16af,,Patient Home,Patient Home,Domicile du patient,,,Visit Location,,,,,,,,,,,
+80f00685-2f2f-42e5-a30b-0d343f64dd6a,,Other,Other,Autre,,,Visit Location,,,,,,,,,,,
