@@ -66,6 +66,7 @@
                                         <exclude>distro/configs/openmrs/initializer_config/locations/locations*</exclude>
                                         <exclude>distro/configs/openmrs/initializer_config/visittypes/visittypes*</exclude>
                                         <exclude>distro/configs/openmrs/initializer_config/attributetypes/attributetypes*</exclude>
+                                        <exclude>distro/configs/openmrs/initializer_config/ocl/openmrs_SOAP_vSOAP_Note_autoexpand-SOAP*</exclude>
                                         <!-- Effectively disable inherited exclusions -->
                                         <exclude>non-existing_file</exclude>
                                     </excludes>
