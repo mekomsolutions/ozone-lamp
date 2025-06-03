@@ -1,0 +1,152 @@
+{
+  "name": "Référence",
+  "pages": [
+    {
+      "label": "Référence",
+      "sections": [
+        {
+          "label": "Referral",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obsGroup",
+              "required": false,
+              "id": "referral",
+              "questionOptions": {
+                "rendering": "repeating",
+                "concept": "bda6b247-f1fa-40d8-9164-79aebe99bfaf"
+              },
+              "questions": [
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "referredBy",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "eb2cec8a-ee2e-4b12-9026-3d24e88bfab8"
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "label": "Centre de santé",
+                  "id": "healthCentre",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "0ba32118-077b-47a6-86b8-52fe87637e60",
+                    "answers": [
+                      {
+                        "concept": "c5abded0-fda7-4c21-a1b4-8c7813a2ecef"
+                      },
+                      {
+                        "concept": "5e20d814-7520-48d1-a550-40f982aaeb1d"
+                      },
+                      {
+                        "concept": "27176fcf-1551-4278-a21c-e6188141b999"
+                      },
+                      {
+                        "concept": "0ec20507-a10f-44f3-b54f-b1a0135b34d2"
+                      },
+                      {
+                        "concept": "011073f8-3e3a-4039-8e20-92b148658c80"
+                      },
+                      {
+                        "concept": "927f79e3-678b-4d6e-9143-49b4fdeadcbf"
+                      },
+                      {
+                        "concept": "b35f66c7-9290-44c3-bb2a-24bfbd05213f"
+                      },
+                      {
+                        "concept": "82ca0e72-17b7-479e-98f2-203bbb73e9d9"
+                      },
+                      {
+                        "concept": "ef947ac7-203e-428c-b6bc-d0c2ee9027e7"
+                      },
+                      {
+                        "concept": "eda808c5-5ff8-4757-a176-6e7c3f0bb01b"
+                      },
+                      {
+                        "concept": "8612c60c-a31e-4f98-b169-945caebd30c6"
+                      },
+                      {
+                        "concept": "b01fe980-6859-421b-b302-534d85862bd8"
+                      },
+                      {
+                        "concept": "1cac8d76-46f1-46d3-a595-d29ee04cc6c1"
+                      },
+                      {
+                        "concept": "ea22c04d-e705-49f5-9557-35a47fc7840e"
+                      },
+                      {
+                        "concept": "cc1cdf23-e3d4-44da-a041-b58a81cce72b"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "label": "Motif de la référence",
+                  "id": "reasonOfReference",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "c4a0d7d4-b78d-45cc-89b2-f045c27bebd4",
+                    "answers": [
+                      {
+                        "concept": "3aec961b-1fcf-4b0d-a617-de82fd9e8b78"
+                      },
+                      {
+                        "concept": "afcd862c-725a-409e-ac4a-3323afebe25b"
+                      },
+                      {
+                        "concept": "f4a036c9-47ea-4c00-ac8a-b54977d808ed"
+                      },
+                      {
+                        "concept": "15c5094a-1fb7-491e-b196-5fa05d7042b7"
+                      },
+                      {
+                        "concept": "79eedd72-7bda-44f8-acf0-48b8a961521f"
+                      },
+                      {
+                        "concept": "12ab6088-11db-40a2-b540-a4868b89f300"
+                      },
+                      {
+                        "concept": "30f14c59-58d2-49a2-abef-0b023df0a7bc"
+                      },
+                      {
+                        "concept": "38bc47c3-4038-49ed-b537-df39380ba68a"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "referralNotes",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "68224cb3-5b61-410d-b269-7b4edc572fd8"
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounter": "Reference",
+  "encounterType": "817abc8f-47b3-446c-bfad-22e49e8d2cf4",
+  "referencedForms": [],
+  "uuid": "aece2fe5-a2ce-3d8c-8264-fa4eb1f8ff6d",
+  "description": "Referral form",
+  "version": "1",
+  "published": true,
+  "retired": false
+}
