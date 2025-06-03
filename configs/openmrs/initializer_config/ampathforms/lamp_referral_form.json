@@ -34,7 +34,7 @@
                   "id": "healthCentre",
                   "questionOptions": {
                     "rendering": "radio",
-                    "concept": "0ba32118-077b-47a6-86b8-52fe87637e60",
+                    "concept": "276cccb6-0c0b-4f84-8947-298aceea5e62",
                     "answers": [
                       {
                         "concept": "c5abded0-fda7-4c21-a1b4-8c7813a2ecef"
