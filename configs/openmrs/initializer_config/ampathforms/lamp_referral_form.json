@@ -30,7 +30,6 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "label": "Centre de santé",
                   "id": "healthCentre",
                   "questionOptions": {
                     "rendering": "radio",
@@ -88,8 +87,7 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "label": "Motif de la référence",
-                  "id": "reasonOfReference",
+                  "id": "referralReason",
                   "questionOptions": {
                     "rendering": "radio",
                     "concept": "c4a0d7d4-b78d-45cc-89b2-f045c27bebd4",
