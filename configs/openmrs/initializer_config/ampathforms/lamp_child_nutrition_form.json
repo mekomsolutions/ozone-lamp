@@ -1,0 +1,310 @@
+{
+  "name": "Child Nutrition program",
+  "pages": [
+    {
+      "label": "Child Nutrition program",
+      "sections": [
+        {
+          "label": "Visit type",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "required": true,
+              "id": "firstVisit",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c4b48a7a-7c13-4e7d-89ad-1df68c5c6801",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "Admission",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "required": true,
+              "id": "admissionCriteria",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6a7ea608-0546-40f1-92d2-cd020e980414",
+                "answers": [
+                  {
+                    "concept": "3509859a-13ae-4f84-8a3d-a78add06e4e2"
+                  },
+                  {
+                    "concept": "192dd178-6a7b-447b-850e-5cc1332dd188"
+                  },
+                  {
+                    "concept": "e0c08730-6b7f-4c8d-9e44-37b64727d5bc"
+                  },
+                  {
+                    "concept": "21e12fb9-3c3f-49a2-a222-132e35392e4e"
+                  },
+                  {
+                    "concept": "ff40f714-0460-4018-85b0-75bf4f65176b"
+                  },
+                  {
+                    "concept": "f261bbdb-7800-4453-a4d7-852938e8d038"
+                  },
+                  {
+                    "concept": "04263910-1b53-4200-bd9d-f659dd8b9768"
+                  }
+                ]
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "Follow-up Visit",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "required": true,
+              "id": "beforePhotoTaken",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "9edde6a1-2987-4437-9e7d-2eb42ba75ca4",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "afterPhotoTaken",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f1c0409f-5548-4ca1-b7f8-ae8043daf61c",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "circumferenceMidUpper",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "a03415e1-741a-41f5-8671-62216ec0ad40",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "appetite",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a03621ae-5ed6-4669-8e87-4e9d92c20ea0",
+                "answers": [
+                  {
+                    "concept": "5f81abab-dc65-49b1-814a-5fd0f27985fc"
+                  },
+                  {
+                    "concept": "6846b4d8-a39a-4b51-bc94-b37450ed889d"
+                  },
+                  {
+                    "concept": "1a171dab-7680-41e8-abc3-d02cbfa7c177"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "symptoms",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a7587797-e969-420e-a7c1-431e02ce033f",
+                "answers": [
+                  {
+                    "concept": "090fc24c-ed84-48bd-952a-41d3acde678b"
+                  },
+                  {
+                    "concept": "6183b5cf-8245-438a-81ea-dde95ffeeca6"
+                  },
+                  {
+                    "concept": "16157bd3-f136-4a02-a449-3f984b680463"
+                  },
+                  {
+                    "concept": "6ae661cf-866c-4044-b9aa-17543024b481"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "supplement1",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "b51dd1ec-61f3-4da2-bc7a-2522a69a2e10",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "supplement2",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "55b2fab4-b9de-4f84-af0f-413baf9b3d84",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "supplement3",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c1deefb9-cccb-4804-a7b5-711cc8b74a5c",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "chlorineAquatabs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "74a12aad-45cc-42f0-a99b-0d503c25654c",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "oralRehydrationSalts",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "27b1ab50-5e44-4ff5-9974-0a9791542a23",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "transportationStipend",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2670dbf0-e52e-440f-aa09-5aca95f52146",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": true,
+              "id": "reasonForDischarge",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a7781567-2c1e-4bfd-ad3a-182915722916",
+                "answers": [
+                  {
+                    "concept": "0a947c3b-ac0a-42af-9299-674620dc7a6d"
+                  },
+                  {
+                    "concept": "74f45a8a-4128-4eb6-b8ca-f4b641c6de3a"
+                  },
+                  {
+                    "concept": "7e639292-50da-4f82-ba8d-07cd7f1d857d"
+                  },
+                  {
+                    "concept": "2560be80-70bd-4eba-bfef-24c818269e58"
+                  },
+                  {
+                    "concept": "b8600302-cf3d-41cd-b506-f0cdfe69dc75"
+                  },
+                  {
+                    "concept": "214861e1-bde0-4c31-bd10-c0ce07bedbf7"
+                  },
+                  {
+                    "concept": "a5b5c98c-12c8-4eb4-882e-8e5aa744d4a0"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "notes",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "5fa80afc-1c9d-4e97-aa2c-93476d0eb464"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "a46c50d1-f8f2-4b73-9940-7e77c64bcffc",
+  "encounter": "Child Nutrition program",
+  "referencedForms": [],
+  "uuid": "b4f80b82-56fc-43e8-b3b4-b6e2993e658d",
+  "description": "Child Nutrition program",
+  "version": "1",
+  "published": true,
+  "retired": false
+}
