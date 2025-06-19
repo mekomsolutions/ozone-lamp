@@ -1,8 +1,8 @@
 {
-  "name": "Child Nutrition program",
+  "name": "Programme d’aide à l’alimentation des enfants",
   "pages": [
     {
-      "label": "Child Nutrition program",
+      "label": "Programme d’aide à l’alimentation des enfants",
       "sections": [
         {
           "label": "Visit type",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "label": "Follow-up Visit",
+          "label": "Visite de suivi",
           "isExpanded": "true",
           "questions": [
             {
