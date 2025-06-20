@@ -2,7 +2,7 @@
   "name": "Programme d’aide à l’alimentation des enfants",
   "pages": [
     {
-      "label": "Programme d’aide à l’alimentation des enfants",
+      "label": "Admission Criteria",
       "sections": [
         {
           "label": "Visit type",
@@ -67,7 +67,12 @@
               "validators": []
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "label": "Follow Up",
+      "sections": [
         {
           "label": "Visite de suivi",
           "isExpanded": "true",
