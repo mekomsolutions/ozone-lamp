@@ -1,5 +1,5 @@
 {
-  "name": "Programme d’aide à l’alimentation des enfants",
+  "name": "Child Nutrition Program Form",
   "pages": [
     {
       "label": "Admission Criteria",
@@ -38,7 +38,7 @@
               "type": "obs",
               "id": "admissionCriteria",
               "questionOptions": {
-                "rendering": "radio",
+                "rendering": "checkbox",
                 "concept": "6a7ea608-0546-40f1-92d2-cd020e980414",
                 "answers": [
                   {
@@ -146,7 +146,7 @@
               "type": "obs",
               "id": "symptoms",
               "questionOptions": {
-                "rendering": "radio",
+                "rendering": "checkbox",
                 "concept": "f9270e85-db3f-4e64-8f2a-be3b13863708",
                 "answers": [
                   {
