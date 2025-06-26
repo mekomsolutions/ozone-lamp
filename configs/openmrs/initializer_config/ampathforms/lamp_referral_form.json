@@ -20,16 +20,6 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "referredBy",
-                  "questionOptions": {
-                    "rendering": "textarea",
-                    "concept": "eb2cec8a-ee2e-4b12-9026-3d24e88bfab8"
-                  },
-                  "validators": []
-                },
-                {
-                  "type": "obs",
-                  "required": false,
                   "id": "healthCentre",
                   "questionOptions": {
                     "rendering": "radio",
