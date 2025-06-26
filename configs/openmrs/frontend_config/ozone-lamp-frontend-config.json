@@ -8,5 +8,14 @@
         "displayInThePatientBanner": false
       }
     ]
+  },
+  "@openmrs/esm-home-app": {
+    "extensionSlots": {
+      "homepage-dashboard-slot": {
+        "add": [
+          "dispensing-dashboard-link"
+        ]
+      }
+    }
   }
 }
