@@ -1,6 +1,7 @@
 {
   "@openmrs/esm-patient-chart-app": {
     "disableChangingVisitLocation": false,
+    "restrictByVisitLocationTag": true,
     "visitAttributeTypes": [
       {
         "uuid": "de5aef5f-74cc-4d36-b79e-0801f3f55bf6",
