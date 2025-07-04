@@ -8,7 +8,63 @@
         "required": false,
         "displayInThePatientBanner": false
       }
-    ]
+    ],
+    "extensionSlots": {
+      "patient-chart-dashboard-slot": {
+        "add": [
+          "nav-group#ChildNutrition"
+        ],
+        "configure": {
+          "nav-group#ChildNutrition": {
+            "title": "childNutritionTitle",
+            "slotName": "child-nutrition-program-slot",
+            "isExpanded": true,
+            "Translation overrides": {
+              "en": {
+                "childNutritionTitle": "Child Nutrition program"
+              },
+              "fr": {
+                "childNutritionTitle": "Malnutrition infantile program"
+              }
+            }
+          }
+        }
+      },
+      "child-nutrition-program-slot": {
+        "add": [
+          "dashboard#hct-patient-summary",
+          "dashboard#hct-program-management"
+        ],
+        "configure": {
+          "dashboard#hct-patient-summary": {
+            "title": "patientSummaryTitle",
+            "path": "hct-patient-summary",
+            "slot": "hct-patient-summary-dashboard-slot",
+            "Translation overrides": {
+              "en": {
+                "patientSummaryTitle": "Patient Summary"
+              },
+              "fr": {
+                "patientSummaryTitle": "Résumé du patient"
+              }
+            }
+          },
+          "dashboard#hct-program-management": {
+            "title": "programManagementTitle",
+            "path": "hct-program-management",
+            "slot": "hct-program-management-dashboard-slot",
+            "Translation overrides": {
+              "en": {
+                "programManagementTitle": "Program Management"
+              },
+              "fr": {
+                "programManagementTitle": "Gestion du programme"
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "@openmrs/esm-home-app": {
     "extensionSlots": {
