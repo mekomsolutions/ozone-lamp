@@ -12,53 +12,53 @@
     "extensionSlots": {
       "patient-chart-dashboard-slot": {
         "add": [
-          "nav-group#ChildNutrition"
+          "nav-group#programes"
         ],
         "configure": {
-          "nav-group#ChildNutrition": {
-            "title": "childNutritionTitle",
-            "slotName": "child-nutrition-program-slot",
+          "nav-group#programes": {
+            "title": "programsTitle",
+            "slotName": "clinical-view-programs-slot",
             "isExpanded": true,
             "Translation overrides": {
               "en": {
-                "childNutritionTitle": "Child Nutrition program"
+                "programsTitle": "Programs"
               },
               "fr": {
-                "childNutritionTitle": "Malnutrition infantile program"
+                "programsTitle": "Programmes"
               }
             }
           }
         }
       },
-      "child-nutrition-program-slot": {
+      "clinical-view-programs-slot": {
         "add": [
-          "dashboard#hct-patient-summary",
-          "dashboard#hct-program-management"
+          "dashboard#child-nutrition-program",
+          "dashboard#prenatal-program"
         ],
         "configure": {
-          "dashboard#hct-patient-summary": {
-            "title": "patientSummaryTitle",
-            "path": "hct-patient-summary",
-            "slot": "hct-patient-summary-dashboard-slot",
+          "dashboard#child-nutrition-program": {
+            "title": "childNutritionTitle",
+            "path": "child-nutrition-program",
+            "slot": "child-nutrition-program-dashboard-slot",
             "Translation overrides": {
               "en": {
-                "patientSummaryTitle": "Patient Summary"
+                "childNutritionTitle": "Child Nutrition"
               },
               "fr": {
-                "patientSummaryTitle": "Résumé du patient"
+                "childNutritionTitle": "Malnutrition infantile"
               }
             }
           },
-          "dashboard#hct-program-management": {
-            "title": "programManagementTitle",
-            "path": "hct-program-management",
-            "slot": "hct-program-management-dashboard-slot",
+          "dashboard#prenatal-program": {
+            "title": "prenatalTitle",
+            "path": "prenatal-program",
+            "slot": "prenatal-program-dashboard-slot",
             "Translation overrides": {
               "en": {
-                "programManagementTitle": "Program Management"
+                "prenatalTitle": "Prenatal"
               },
               "fr": {
-                "programManagementTitle": "Gestion du programme"
+                "prenatalTitle": "Prenatal"
               }
             }
           }
