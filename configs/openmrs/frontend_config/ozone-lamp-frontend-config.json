@@ -12,26 +12,6 @@
     "extensionSlots": {
       "patient-chart-dashboard-slot": {
         "add": [
-          "nav-group#programes"
-        ],
-        "configure": {
-          "nav-group#programes": {
-            "title": "programsTitle",
-            "slotName": "clinical-view-programs-slot",
-            "isExpanded": true,
-            "Translation overrides": {
-              "en": {
-                "programsTitle": "Programs"
-              },
-              "fr": {
-                "programsTitle": "Programmes"
-              }
-            }
-          }
-        }
-      },
-      "clinical-view-programs-slot": {
-        "add": [
           "dashboard#child-nutrition-program",
           "dashboard#prenatal-program"
         ],
