@@ -8,7 +8,53 @@
         "required": false,
         "displayInThePatientBanner": false
       }
-    ]
+    ],
+    "extensionSlots": {
+      "patient-chart-dashboard-slot": {
+        "add": [
+          "dashboard#child-nutrition-program",
+          "dashboard#prenatal-program"
+        ],
+        "configure": {
+          "dashboard#child-nutrition-program": {
+            "title": "childNutritionTitle",
+            "path": "child-nutrition-program",
+            "slot": "child-nutrition-program-dashboard-slot",
+            "Translation overrides": {
+              "en": {
+                "childNutritionTitle": "Child Nutrition"
+              },
+              "fr": {
+                "childNutritionTitle": "Malnutrition infantile"
+              }
+            }
+          },
+          "dashboard#prenatal-program": {
+            "title": "prenatalTitle",
+            "path": "prenatal-program",
+            "slot": "prenatal-program-dashboard-slot",
+            "Translation overrides": {
+              "en": {
+                "prenatalTitle": "Prenatal"
+              },
+              "fr": {
+                "prenatalTitle": "Prenatal"
+              }
+            }
+          }
+        }
+      },
+      "prenatal-program-dashboard-slot": {
+        "add": [
+          "active-medications-widget"
+        ]
+      },
+      "child-nutrition-program-dashboard-slot": {
+        "add": [
+          "active-medications-widget"
+        ]
+      }
+    }
   },
   "@openmrs/esm-home-app": {
     "extensionSlots": {
