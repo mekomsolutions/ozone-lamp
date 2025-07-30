@@ -2,7 +2,7 @@
   "name": "Child Nutrition",
   "pages": [
     {
-      "label": "Admission Criteria",
+      "label": "Child Nutrition",
       "sections": [
         {
           "label": "Visit type",
@@ -64,12 +64,7 @@
               "validators": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Follow Up",
-      "sections": [
+        },
         {
           "label": "Visite de suivi",
           "isExpanded": "true",
