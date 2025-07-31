@@ -2,7 +2,7 @@
   "name": "Child Nutrition",
   "pages": [
     {
-      "label": "Admission Criteria",
+      "label": "Child Nutrition",
       "sections": [
         {
           "label": "Visit type",
@@ -48,10 +48,7 @@
                     "concept": "192dd178-6a7b-447b-850e-5cc1332dd188"
                   },
                   {
-                    "concept": "e0c08730-6b7f-4c8d-9e44-37b64727d5bc"
-                  },
-                  {
-                    "concept": "21e12fb9-3c3f-49a2-a222-132e35392e4e"
+                    "concept": "75c78dbc-09f9-4a3d-aa51-1c4e064b6b9e"
                   },
                   {
                     "concept": "ff40f714-0460-4018-85b0-75bf4f65176b"
@@ -67,16 +64,84 @@
               "validators": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Follow Up",
-      "sections": [
+        },
         {
           "label": "Visite de suivi",
           "isExpanded": "true",
           "questions": [
+            {
+              "type": "obs",
+              "id": "weight",
+              "questionOptions": {
+                "rendering": "number",
+                "step": 1,
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "disallowDecimals": false
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "height",
+              "questionOptions": {
+                "rendering": "number",
+                "step": 1,
+                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "disallowDecimals": false
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "positionWhileTest",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "18e975e1-0229-44f2-acd2-a09ddb5b8caf",
+                "answers": [
+                  {
+                    "concept": "c85d5943-7e33-46ea-925a-090f1ebea392"
+                  },
+                  {
+                    "concept": "6c9f7622-f137-4af0-b3f2-281e60138b1a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "malnutritionStatus",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0ae3326d-592b-4ce0-a523-6e03bbe99b69",
+                "answers": [
+                  {
+                    "concept": "e0c08730-6b7f-4c8d-9e44-37b64727d5bc"
+                  },
+                  {
+                    "concept": "21e12fb9-3c3f-49a2-a222-132e35392e4e"
+                  },
+                  {
+                    "concept": "0a947c3b-ac0a-42af-9299-674620dc7a6d"
+                  },
+                  {
+                    "concept": "f459423d-1174-4b2b-a6a1-30bbd85fbf85"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "goalWeight",
+              "questionOptions": {
+                "rendering": "number",
+                "step": 1,
+                "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5",
+                "disallowDecimals": false
+              },
+              "validators": []
+            },
             {
               "type": "obs",
               "id": "beforePhotoTaken",
