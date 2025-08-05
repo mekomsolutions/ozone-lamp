@@ -60,15 +60,35 @@
                                     <excludes>
                                         <exclude>distro/binaries/openmrs/modules/erp*</exclude>
                                         <exclude>distro/binaries/openmrs/modules/orderexpansion*</exclude>
-                                        <exclude>distro/binaries/openmrs/modules/emrapi*</exclude>
-                                        <exclude>distro/binaries/openmrs/modules/event*</exclude>
                                         <exclude>distro/binaries/openmrs/modules/bedmanagement*</exclude>
-                                        <exclude>distro/configs/openmrs/initializer_config/locations/locations*</exclude>
-                                        <exclude>distro/configs/openmrs/initializer_config/visittypes/visittypes*</exclude>
-                                        <exclude>distro/configs/openmrs/initializer_config/attributetypes/attributetypes*</exclude>
-                                        <!-- Effectively disable inherited exclusions -->
-                                        <exclude>non-existing_file</exclude>
+
+                                        <exclude>distro/configs/**/locations/03_ozone-haiti/*</exclude>
+                                        <exclude>distro/configs/**/visittypes/03_ozone-haiti/*</exclude>
+                                        <exclude>distro/configs/**/attributetypes/03_ozone-haiti/*</exclude>
                                     </excludes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <!-- Copy over the content-packages.txt file -->
+                        <id>Copy content-packages.txt</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.directory}/scripts/openmrs/
+                            </outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/scripts</directory>
+                                    <includes>
+                                        <include>content-packages.txt</include>
+                                    </includes>
+                                    <filtering>false</filtering>
                                 </resource>
                             </resources>
                         </configuration>

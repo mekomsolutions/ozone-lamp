@@ -1,7 +1,5 @@
 {
   "frontendModules": {
-    "@openmrs/esm-patient-programs-app": "9.2.3-pre.7268",
-    "@openmrs/esm-patient-chart-app": "9.2.3-pre.7000"
   },
   "__comment": "Lamp Overrides",
   "frontendModuleExcludes": [
