@@ -1,5 +1,5 @@
 {
-  "name": "Child Nutrition",
+  "name": "Child Nutrition form",
   "pages": [
     {
       "label": "Child Nutrition",
@@ -11,6 +11,7 @@
             {
               "type": "obs",
               "id": "firstVisit",
+              "required": true,
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "c4b48a7a-7c13-4e7d-89ad-1df68c5c6801",
@@ -28,13 +29,13 @@
           ]
         },
         {
-          "label": "Admission",
+          "label": "Details",
           "isExpanded": "true",
-          "hide": {
-            "hideWhenExpression": "firstVisit !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
-          },
           "questions": [
             {
+              "hide": {
+                "hideWhenExpression": "firstVisit !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              },
               "type": "obs",
               "id": "admissionCriteria",
               "questionOptions": {
@@ -62,19 +63,13 @@
                 ]
               },
               "validators": []
-            }
-          ]
-        },
-        {
-          "label": "Visite de suivi",
-          "isExpanded": "true",
-          "questions": [
+            },
             {
               "type": "obs",
               "id": "weight",
               "questionOptions": {
                 "rendering": "number",
-                "step": 1,
+                "step": 0.1,
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "disallowDecimals": false
               },
@@ -85,7 +80,7 @@
               "id": "height",
               "questionOptions": {
                 "rendering": "number",
-                "step": 1,
+                "step": 0.1,
                 "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "disallowDecimals": false
               },
@@ -136,7 +131,7 @@
               "id": "goalWeight",
               "questionOptions": {
                 "rendering": "number",
-                "step": 1,
+                "step": 0.1,
                 "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5",
                 "disallowDecimals": false
               },
@@ -366,7 +361,7 @@
   "encounter": "Child Nutrition program",
   "referencedForms": [],
   "uuid": "b4f80b82-56fc-43e8-b3b4-b6e2993e658d",
-  "description": "Child Nutrition program",
+  "description": "Child Nutrition",
   "version": "1",
   "published": true,
   "retired": false
