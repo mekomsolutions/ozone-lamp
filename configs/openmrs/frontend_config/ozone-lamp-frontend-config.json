@@ -293,5 +293,12 @@
         "genderLabelText": "Genre"
       }
     }
+  },
+  "@openmrs/esm-dispensing-app": {
+    "locationBehavior": {
+      "locationFilter": {
+        "enabled": true
+      }
+    }
   }
 }
