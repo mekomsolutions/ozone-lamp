@@ -1,8 +1,8 @@
 {
-  "name": "Référence",
+  "name": "Referral form",
   "pages": [
     {
-      "label": "Référence",
+      "label": "Referral",
       "sections": [
         {
           "label": "Referral",
@@ -133,7 +133,7 @@
   "encounterType": "817abc8f-47b3-446c-bfad-22e49e8d2cf4",
   "referencedForms": [],
   "uuid": "aece2fe5-a2ce-3d8c-8264-fa4eb1f8ff6d",
-  "description": "Referral form",
+  "description": "Referral",
   "version": "1",
   "published": true,
   "retired": false
