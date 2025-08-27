@@ -40,4 +40,4 @@ f459423d-1174-4b2b-a6a1-30bbd85fbf85,,,Undefined,Incertain,Undefined,Incertain,U
 c85d5943-7e33-46ea-925a-090f1ebea392,,,Lying down,Couché,Lying down,Couché,Lying down,Couché,Misc,Coded,,,,,,,,,,,
 6c9f7622-f137-4af0-b3f2-281e60138b1a,,,Standing,Debout,Standing,Debout,Standing,Debout,Misc,Coded,,,,,,,,,,,
 18e975e1-0229-44f2-acd2-a09ddb5b8caf,,,Position,Position,Position,Position,Position,Position,Misc,Coded,,Lying down;Standing,,,,,,,,,
-25d8b0ad-e95e-454c-bd97-391ea12989c5,,,Goal Weight,Poids cible,Goal Weight,Poids cible,Goal Weight,Poids cible,Misc,Numeric,,,,,,,,,,,
+25d8b0ad-e95e-454c-bd97-391ea12989c5,,,Goal Weight,Poids cible,Goal Weight,Poids cible,Goal Weight,Poids cible,Misc,Numeric,,,,TRUE,,,,,,,

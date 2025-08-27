@@ -66,6 +66,7 @@
                                         <exclude>distro/configs/**/visittypes/03_ozone-haiti/*</exclude>
                                         <exclude>distro/configs/**/attributetypes/03_ozone-haiti/*</exclude>
                                         <exclude>distro/configs/**/concepts/03_ozone-haiti/lab_tests.csv</exclude>
+                                        <exclude>distro/configs/**/ordertypes/03_ozone-haiti/*</exclude>
                                     </excludes>
                                 </resource>
                             </resources>
