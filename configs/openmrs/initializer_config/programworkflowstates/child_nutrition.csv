@@ -3,3 +3,9 @@ Uuid,Void/Retire,Workflow,State concept,Initial,Terminal
 94ee0693-dc6d-401d-8379-d47bbe711466,,ffe59a80-e9fa-4403-aa00-999ee812f602,MAM,true,
 cbc50b1d-baab-4db8-8a5d-b925298dc823,,ffe59a80-e9fa-4403-aa00-999ee812f602,Reached target weight,,true
 01f82627-c40a-40c0-b282-bb27f8eed23c,,ffe59a80-e9fa-4403-aa00-999ee812f602,Undefined,true,
+210eb968-e55c-4085-b9a2-84ece4f5bb27,,ffe59a80-e9fa-4403-aa00-999ee812f602,Completed 18 weeks in program (patient is automatically discharged after 18 weeks),,true
+08a2c07e-de0d-46e1-8cf4-5c52b103611c,,ffe59a80-e9fa-4403-aa00-999ee812f602,Hospitalized for malnutrition,,true
+9eec35b6-98d7-4d0b-b445-8cd7ea37789f,,ffe59a80-e9fa-4403-aa00-999ee812f602,Hospitalized for another reason (Explain in Visit Note),,true
+93518a3f-bddb-4439-83f3-8555a0bf1038,,ffe59a80-e9fa-4403-aa00-999ee812f602,Abandoned the program,,true
+fb1ab996-45a1-4447-b6e4-bbfda76048a9,,ffe59a80-e9fa-4403-aa00-999ee812f602,Death,,true
+fcef39c7-5b96-4803-86e6-e6ef48d4d8a3,,ffe59a80-e9fa-4403-aa00-999ee812f602,Other (explain in notes),,true
