@@ -202,6 +202,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -219,6 +220,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "f4da9202-f358-469c-9987-55cae483cbbb",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -236,6 +238,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "122496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -253,6 +256,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -270,6 +274,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -287,6 +292,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "ff40f714-0460-4018-85b0-75bf4f65176b",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -304,6 +310,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "f261bbdb-7800-4453-a4d7-852938e8d038",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
