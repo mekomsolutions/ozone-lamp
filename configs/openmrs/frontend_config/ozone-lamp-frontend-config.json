@@ -300,5 +300,8 @@
         "enabled": true
       }
     }
+  },
+  "@openmrs/esm-patient-programs-app": {
+    "showProgramStatusField": true
   }
 }

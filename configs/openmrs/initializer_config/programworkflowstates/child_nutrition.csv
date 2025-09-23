@@ -1,7 +1,7 @@
 Uuid,Void/Retire,Workflow,State concept,Initial,Terminal
 5dbd56a1-2f8e-42e7-95ac-f5ec6dde9c85,,ffe59a80-e9fa-4403-aa00-999ee812f602,SAM,true,
 94ee0693-dc6d-401d-8379-d47bbe711466,,ffe59a80-e9fa-4403-aa00-999ee812f602,MAM,true,
-cbc50b1d-baab-4db8-8a5d-b925298dc823,,ffe59a80-e9fa-4403-aa00-999ee812f602,Reached target weight,,true
+cbc50b1d-baab-4db8-8a5d-b925298dc823,,ffe59a80-e9fa-4403-aa00-999ee812f602,Reached target weight,true,
 01f82627-c40a-40c0-b282-bb27f8eed23c,,ffe59a80-e9fa-4403-aa00-999ee812f602,Undefined,true,
 210eb968-e55c-4085-b9a2-84ece4f5bb27,,ffe59a80-e9fa-4403-aa00-999ee812f602,Completed 18 weeks in program (patient is automatically discharged after 18 weeks),,true
 08a2c07e-de0d-46e1-8cf4-5c52b103611c,,ffe59a80-e9fa-4403-aa00-999ee812f602,Hospitalized for malnutrition,,true
