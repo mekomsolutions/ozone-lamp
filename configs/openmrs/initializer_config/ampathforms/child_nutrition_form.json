@@ -52,12 +52,6 @@
                     "concept": "75c78dbc-09f9-4a3d-aa51-1c4e064b6b9e"
                   },
                   {
-                    "concept": "ff40f714-0460-4018-85b0-75bf4f65176b"
-                  },
-                  {
-                    "concept": "f261bbdb-7800-4453-a4d7-852938e8d038"
-                  },
-                  {
                     "concept": "04263910-1b53-4200-bd9d-f659dd8b9768"
                   }
                 ]
@@ -204,22 +198,125 @@
             },
             {
               "type": "obs",
-              "id": "symptoms",
+              "id": "diarrheaSymptoms",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "f9270e85-db3f-4e64-8f2a-be3b13863708",
+                "rendering": "radio",
+                "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
-                    "concept": "142630AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "122496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "dehydrationSymptoms",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f4da9202-f358-469c-9987-55cae483cbbb",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "dyspneaSymptoms",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "122496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "CoughSymptoms",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "feverSymptoms",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "edemaOneSymptoms",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "ff40f714-0460-4018-85b0-75bf4f65176b",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
+              "id": "edemaTwoSymptoms",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "f261bbdb-7800-4453-a4d7-852938e8d038",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
