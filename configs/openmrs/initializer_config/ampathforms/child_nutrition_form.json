@@ -122,6 +122,23 @@
             },
             {
               "type": "obs",
+              "id": "expectedTreatmentDuration",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "b09b835d-e416-4350-99ad-34ed6762d231",
+                "answers": [
+                  {
+                    "concept": "28a70e45-3417-4eea-8700-36ad22b2731e"
+                  },
+                  {
+                    "concept": "65c96b2f-e74e-4702-9226-d807ff468130"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
               "id": "goalWeight",
               "questionOptions": {
                 "rendering": "number",
