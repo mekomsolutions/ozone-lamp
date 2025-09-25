@@ -52,11 +52,13 @@
       },
       "child-nutrition-program-dashboard-slot": {
         "add": [
+          "programs-details-widget",
           "obs-by-encounter-widget",
           "clinical-views-summary",
           "obs-table-horizontal-widget"
         ],
         "order": [
+          "programs-details-widget",
           "obs-by-encounter-widget",
           "clinical-views-summary",
           "obs-table-horizontal-widget"
