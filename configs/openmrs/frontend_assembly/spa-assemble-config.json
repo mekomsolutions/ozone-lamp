@@ -1,8 +1,10 @@
 {
   "frontendModules": {
+    "@openmrs/esm-generic-patient-widgets-app": "11.3.1-pre.8877"
   },
   "__comment": "Lamp Overrides",
   "frontendModuleExcludes": [
+    "@openmrs/esm-service-queues-app",
     "@openmrs/openmrs-esm-stock-management",
     "@mekomsolutions/esm-patient-billing-status-app",
     "@mekomsolutions/esm-patient-medical-supply-orders-app",
