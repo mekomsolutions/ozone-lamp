@@ -14,7 +14,209 @@
         "required": false,
         "displayInThePatientBanner": false
       }
-    ]
+    ],
+    "extensionSlots": {
+      "patient-chart-dashboard-slot": {
+        "add": [
+          "dashboard#child-nutrition-program",
+          "dashboard#prenatal-program"
+        ],
+        "configure": {
+          "dashboard#child-nutrition-program": {
+            "title": "childNutritionTitle",
+            "path": "child-nutrition-program",
+            "slot": "child-nutrition-program-dashboard-slot",
+            "Translation overrides": {
+              "en": {
+                "childNutritionTitle": "Child Nutrition"
+              },
+              "fr": {
+                "childNutritionTitle": "Malnutrition infantile"
+              }
+            }
+          },
+          "dashboard#prenatal-program": {
+            "title": "prenatalTitle",
+            "path": "prenatal-program",
+            "slot": "prenatal-program-dashboard-slot",
+            "Translation overrides": {
+              "en": {
+                "prenatalTitle": "Prenatal"
+              },
+              "fr": {
+                "prenatalTitle": "Prenatal"
+              }
+            }
+          }
+        }
+      },
+      "child-nutrition-program-dashboard-slot": {
+        "add": [
+          "obs-by-encounter-widget",
+          "clinical-views-summary",
+          "obs-table-horizontal-widget"
+        ],
+        "order": [
+          "obs-by-encounter-widget",
+          "clinical-views-summary",
+          "obs-table-horizontal-widget"
+        ],
+        "configure": {
+          "obs-by-encounter-widget": {
+            "title": "Child Nutrition Weight & Goal Weight",
+            "resultsName": "Weight & Goal Weight",
+            "showGraphByDefault": true,
+            "data": [
+              {
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "graphGroup": "Weight"
+              },
+              {
+                "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5",
+                "graphGroup": "Goal Weight"
+              }
+            ]
+          },
+          "clinical-views-summary": {
+            "tileDefinitions": [
+              {
+                "tileHeader": "childNutritionProgramTitle",
+                "columns": [
+                  {
+                    "id": "cnGoalWeight",
+                    "title": "Goal Weight (kg)",
+                    "encounterType": "a46c50d1-f8f2-4b73-9940-7e77c64bcffc",
+                    "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5"
+                  },
+                  {
+                    "id": "cnExpectedTreatmentDuration",
+                    "title": "Expected treatment duration",
+                    "encounterType": "a46c50d1-f8f2-4b73-9940-7e77c64bcffc",
+                    "concept": "b09b835d-e416-4350-99ad-34ed6762d231"
+                  }
+                ]
+              }
+            ],
+            "Translation overrides": {
+              "en": {
+                "childNutritionProgramTitle": "Child Nutrition Program"
+              },
+              "fr": {}
+            }
+          },
+          "obs-table-horizontal-widget": {
+            "title": "Child Nutrition timeline",
+            "oldestFirst": true,
+            "showEncounterType": false,
+            "data": [
+              {
+                "concept": "a03415e1-741a-41f5-8671-62216ec0ad40",
+                "label": "Mid upper arm circumference (in mm)"
+              },
+              {
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Weight (in Kg)"
+              },
+              {
+                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Height (in Kg)"
+              },
+              {
+                "concept": "7c383fa5-d85b-4b5f-b41f-d86826403969",
+                "label": "Appetite"
+              },
+              {
+                "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Diarrhea"
+              },
+              {
+                "concept": "142630AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Dehydration"
+              },
+              {
+                "concept": "122496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Dyspnea"
+              },
+              {
+                "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Cough"
+              },
+              {
+                "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
+                "label": "Fever"
+              },
+              {
+                "concept": "ff40f714-0460-4018-85b0-75bf4f65176b",
+                "label": "Edema 1+"
+              },
+              {
+                "concept": "f261bbdb-7800-4453-a4d7-852938e8d038",
+                "label": "Edema 2+"
+              },
+              {
+                "concept": "b6174211-0f91-4f71-9793-c828aefcbd7f",
+                "label": "Mamba (# of sachets)"
+              },
+              {
+                "concept": "b51dd1ec-61f3-4da2-bc7a-2522a69a2e10",
+                "label": "Supplement #1 (# of units)"
+              },
+              {
+                "concept": "55b2fab4-b9de-4f84-af0f-413baf9b3d84",
+                "label": "Supplement #2 (# of units)"
+              },
+              {
+                "concept": "c1deefb9-cccb-4804-a7b5-711cc8b74a5c",
+                "label": "Supplement #3 (# of units)"
+              },
+              {
+                "concept": "70439AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Albendazole"
+              },
+              {
+                "concept": "71188AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "label": "Ampicillin"
+              },
+              {
+                "concept": "74a12aad-45cc-42f0-a99b-0d503c25654c",
+                "label": "Chlorine/Aquatabs"
+              },
+              {
+                "concept": "27b1ab50-5e44-4ff5-9974-0a9791542a23",
+                "label": "Oral rehydration salts"
+              },
+              {
+                "concept": "2670dbf0-e52e-440f-aa09-5aca95f52146",
+                "label": "Transportation stipend"
+              },
+              {
+                "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                "label": "Other"
+              },
+              {
+                "concept": "5fa80afc-1c9d-4e97-aa2c-93476d0eb464",
+                "label": "Notes"
+              }
+            ]
+          }
+        }
+      },
+      "prenatal-program-dashboard-slot": {
+        "add": [
+          "active-medications-widget"
+        ]
+      }
+    }
+  },
+  "@openmrs/esm-generic-patient-widgets-app": {
+    "Translation overrides": {
+      "en": {
+        "midUpperArmCircumference": "Mid upper arm circumference (in mm)"
+      },
+      "fr": {
+        "midUpperArmCircumference": "Circonférence du bras (en mm)"
+      }
+    }
   },
   "@openmrs/esm-patient-tests-app": {
     "orders": {
