@@ -3,6 +3,7 @@
   },
   "__comment": "Lamp Overrides",
   "frontendModuleExcludes": [
+    "@openmrs/esm-service-queues-app",
     "@openmrs/openmrs-esm-stock-management",
     "@mekomsolutions/esm-patient-billing-status-app",
     "@mekomsolutions/esm-patient-medical-supply-orders-app",

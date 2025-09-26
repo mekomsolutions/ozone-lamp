@@ -22,7 +22,6 @@
         <ozone.groupId>com.ozonehis</ozone.groupId>
         <ozone.version>1.2.0-SNAPSHOT</ozone.version>
 
-        <openmrsERPVersion>2.2.0-SNAPSHOT</openmrsERPVersion>
         <ozoneProVersion>1.0.0-SNAPSHOT</ozoneProVersion>
         <openmrsModuleLamp>1.0.0-SNAPSHOT</openmrsModuleLamp>
         <!-- Classifier for the dependency report artifact -->
