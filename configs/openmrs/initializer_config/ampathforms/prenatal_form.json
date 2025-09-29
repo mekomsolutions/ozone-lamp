@@ -1,0 +1,299 @@
+{
+  "name": "Prenatal form",
+  "pages": [
+    {
+      "label": "Prenatal",
+      "sections": [
+        {
+          "label": "Maternal Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a9c3ad7a-21ad-4010-9de1-ecaaf99ca2f1"
+              },
+              "id": "questionFpal",
+              "label": "FPAL"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4"
+              },
+              "id": "estimatedDateOfDelivery",
+              "label": "Estimated Date of Delivery",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf",
+                "min": "1",
+                "max": "8"
+              },
+              "id": "visitNumberForThisPregnancy",
+              "label": "Visit number for this pregnancy"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
+                "answers": [
+                  {
+                    "concept": "70dc37cc-4b61-45a4-ad58-602b3590fcbf",
+                    "label": "Single pregnancy"
+                  },
+                  {
+                    "concept": "22b2a3f1-aa28-4eb2-872f-d9a7ed76c63a",
+                    "label": "Multiple pregnancy"
+                  }
+                ]
+              },
+              "id": "pregnancyType",
+              "label": "Pregnancy type"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  }
+                ]
+              },
+              "id": "highRiskPregnancy",
+              "label": "High-risk pregnancy"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "704f4fa5-4771-4847-a9a0-5156ff611b76"
+              },
+              "id": "referredTo",
+              "label": "Referred to"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "82bed9fb-196e-4b46-ab48-5137cc38062e"
+              },
+              "id": "dateOfReferral",
+              "label": "Date of referral",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        },
+        {
+          "label": "Maternal Information 2",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76"
+              },
+              "id": "folateOfDays",
+              "label": "Folate (# of days)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de"
+              },
+              "id": "ironOfDays",
+              "label": "Iron (# of days)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6"
+              },
+              "id": "prenatalMultivitaminsOfDays",
+              "label": "Prenatal Multivitamins (# of days)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4"
+              },
+              "id": "calciumOfUnits",
+              "label": "Calcium (# of units)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "96278875-4d38-4caa-9973-c1dfc35918a7"
+              },
+              "id": "aspirinOfUnits",
+              "label": "Aspirin (# of units)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0137d018-cb47-4bb1-a587-eb1892235ee6"
+              },
+              "id": "chloroquineIfMalaria",
+              "label": "Chloroquine if malaria"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bf7e8ea2-5ec0-408f-ba9a-0c52d92daf53"
+              },
+              "id": "mosquitoNet",
+              "label": "Mosquito Net"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "51c39f01-5e45-40e6-b68f-193d98e23b0e"
+              },
+              "id": "hygieneKitGiven",
+              "label": "Hygiene kit given"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "376018df-e9ba-48c1-9a9f-6a078755f1da"
+              },
+              "id": "deliveryKitGiven",
+              "label": "Delivery kit given"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f"
+              },
+              "id": "nutritionTreatmentOfDays",
+              "label": "Nutrition treatment (# of days)"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "161288AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              },
+              "id": "ultrasound",
+              "label": "Ultrasound"
+            }
+          ]
+        },
+        {
+          "label": "Delivery Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "7d5c6f58-2048-47e4-8dbb-cd952c01b392"
+              },
+              "id": "deliveryDate",
+              "label": "Delivery date",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0ac375bc-e25b-430c-b8c5-b05472676979",
+                "answers": [
+                  {
+                    "concept": "4e654cc0-5f39-471f-bf78-6f797fd1dc62",
+                    "label": "Institution"
+                  },
+                  {
+                    "concept": "c4660745-1103-4596-8d80-48f1c0ac0578",
+                    "label": "Vaginal delivery"
+                  },
+                  {
+                    "concept": "12062dff-f999-445b-8d0c-a58872e43b7e",
+                    "label": "C-section"
+                  },
+                  {
+                    "concept": "1e2d81d7-4a45-4443-b8f1-976287ea55ab",
+                    "label": "Instrument assisted"
+                  },
+                  {
+                    "concept": "55f79d9b-91de-4219-a50b-9792a935c838",
+                    "label": "Community"
+                  },
+                  {
+                    "concept": "3b735e90-36ad-43aa-898a-1db9137a0c54",
+                    "label": "Matron assist"
+                  },
+                  {
+                    "concept": "b2abafff-e460-473a-b6f9-f40929434c2c",
+                    "label": "No assist"
+                  }
+                ]
+              },
+              "id": "deliveryLocation",
+              "label": "Delivery location"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "afff0d91-df0f-4913-a34a-22e94628bbc5",
+                "answers": [
+                  {
+                    "concept": "05881966-f39e-4fba-ba23-05f127a4c3ec",
+                    "label": "Normal Pregnancy"
+                  },
+                  {
+                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
+                    "label": "Risky Pregnancy"
+                  },
+                  {
+                    "concept": "71fbda44-fdbc-491e-a36d-e6148069c49a",
+                    "label": "Delivery (program termination)"
+                  },
+                  {
+                    "concept": "5cfdddc1-716e-462f-a184-010351415558",
+                    "label": "Referred (program termination, to be confirmed)"
+                  },
+                  {
+                    "concept": "20cfecf2-d01f-4bd8-b71e-ad112ce0d7ce",
+                    "label": "10 months elapsed (automatic discharge)"
+                  }
+                ]
+              },
+              "id": "currentStateOfPregnancy",
+              "label": "Current state of pregnancy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "",
+  "referencedForms": [],
+  "uuid": "",
+  "description": "Prenatal form"
+}
