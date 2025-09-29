@@ -292,8 +292,12 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "",
+  "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
+  "encounter": "Prenatal program",
   "referencedForms": [],
-  "uuid": "",
-  "description": "Prenatal form"
+  "uuid": "ff42ffdc-ab4c-46a6-8b06-dc9f05bd2d27",
+  "description": "Prenatal",
+  "version": "1",
+  "published": true,
+  "retired": false
 }
