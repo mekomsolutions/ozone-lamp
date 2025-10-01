@@ -11,11 +11,37 @@
             {
               "type": "obs",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "a9c3ad7a-21ad-4010-9de1-ecaaf99ca2f1"
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "f2ecd5b7-3b0c-4ea4-b31a-a5d034943707",
+                "min": "1",
+                "max": "15"
               },
-              "id": "Fpal",
-              "label": "FPAL"
+              "id": "gravidity",
+              "label": "Gravidity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "d682ced8-f3c1-4658-8645-a41bdb104893",
+                "min": "0",
+                "max": "15"
+              },
+              "id": "parity",
+              "label": "Parity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0"
+              },
+              "id": "gravidityAndParity",
+              "label": "Gravidity & Parity"
             },
             {
               "type": "obs",
@@ -31,9 +57,10 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
                 "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf",
-                "min": "1",
-                "max": "8"
+                "min": "1"
               },
               "id": "visitNumberForThisPregnancy",
               "label": "Visit number for this pregnancy"
@@ -105,6 +132,8 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
                 "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76"
               },
               "id": "folateOfDays",
@@ -114,6 +143,8 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
                 "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de"
               },
               "id": "ironOfDays",
@@ -123,6 +154,8 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
                 "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6"
               },
               "id": "prenatalMultivitaminsOfDays",
@@ -132,6 +165,8 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
                 "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4"
               },
               "id": "calciumOfUnits",
@@ -141,6 +176,8 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
                 "concept": "96278875-4d38-4caa-9973-c1dfc35918a7"
               },
               "id": "aspirinOfUnits",
@@ -226,6 +263,8 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
                 "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f"
               },
               "id": "nutritionTreatmentOfDays",
@@ -277,6 +316,21 @@
                     "label": "Institution"
                   },
                   {
+                    "concept": "55f79d9b-91de-4219-a50b-9792a935c838",
+                    "label": "Community"
+                  }
+                ]
+              },
+              "id": "deliveryLocation",
+              "label": "Delivery location"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "cee8d839-c6ff-47ca-aa89-6dea27e3ea9a",
+                "answers": [
+                  {
                     "concept": "dfb79477-ab61-47c4-b308-e1ab09757c18",
                     "label": "Vaginal delivery"
                   },
@@ -287,11 +341,18 @@
                   {
                     "concept": "1e2d81d7-4a45-4443-b8f1-976287ea55ab",
                     "label": "Instrument assisted"
-                  },
-                  {
-                    "concept": "55f79d9b-91de-4219-a50b-9792a935c838",
-                    "label": "Community"
-                  },
+                  }
+                ]
+              },
+              "id": "methodOfDelivery",
+              "label": "Method of delivery"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "aadde11e-5b2c-4ddf-a9c0-4934b30785bb",
+                "answers": [
                   {
                     "concept": "3b735e90-36ad-43aa-898a-1db9137a0c54",
                     "label": "Matron assist"
@@ -302,8 +363,8 @@
                   }
                 ]
               },
-              "id": "deliveryLocation",
-              "label": "Delivery location"
+              "id": "assistance",
+              "label": "Assistance"
             },
             {
               "type": "obs",
