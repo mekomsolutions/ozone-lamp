@@ -382,15 +382,15 @@
                   },
                   {
                     "concept": "71fbda44-fdbc-491e-a36d-e6148069c49a",
-                    "label": "Delivery (program termination)"
+                    "label": "Delivery"
                   },
                   {
-                    "concept": "5cfdddc1-716e-462f-a184-010351415558",
-                    "label": "Referred (program termination, to be confirmed)"
+                    "concept": "fb25b6de-d7d2-4a0b-a2e0-54517e723d03",
+                    "label": "Referred"
                   },
                   {
                     "concept": "20cfecf2-d01f-4bd8-b71e-ad112ce0d7ce",
-                    "label": "10 months elapsed (automatic discharge)"
+                    "label": "10 months elapsed"
                   }
                 ]
               },
