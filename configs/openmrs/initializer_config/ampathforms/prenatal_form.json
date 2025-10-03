@@ -18,8 +18,7 @@
                 "min": "1",
                 "max": "15"
               },
-              "id": "gravidity",
-              "label": "Gravidity"
+              "id": "gravidity"
             },
             {
               "type": "obs",
@@ -31,8 +30,7 @@
                 "min": "0",
                 "max": "15"
               },
-              "id": "parity",
-              "label": "Parity"
+              "id": "parity"
             },
             {
               "type": "obs",
@@ -40,8 +38,7 @@
                 "rendering": "text",
                 "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0"
               },
-              "id": "gravidityAndParity",
-              "label": "Gravidity & Parity"
+              "id": "gravidityAndParity"
             },
             {
               "type": "obs",
@@ -50,7 +47,6 @@
                 "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4"
               },
               "id": "estimatedDateOfDelivery",
-              "label": "Estimated Date of Delivery",
               "datePickerFormat": "calendar"
             },
             {
@@ -62,8 +58,7 @@
                 "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf",
                 "min": "1"
               },
-              "id": "visitNumberForThisPregnancy",
-              "label": "Visit number for this pregnancy"
+              "id": "visitNumberForThisPregnancy"
             },
             {
               "type": "obs",
@@ -72,17 +67,14 @@
                 "concept": "94188dc9-b890-43fd-8fe4-26cf101d036f",
                 "answers": [
                   {
-                    "concept": "70dc37cc-4b61-45a4-ad58-602b3590fcbf",
-                    "label": "Single pregnancy"
+                    "concept": "70dc37cc-4b61-45a4-ad58-602b3590fcbf"
                   },
                   {
-                    "concept": "ec5216e0-aa54-41e5-8f8a-440295734cb4",
-                    "label": "Multiple pregnancy"
+                    "concept": "ec5216e0-aa54-41e5-8f8a-440295734cb4"
                   }
                 ]
               },
-              "id": "pregnancyType",
-              "label": "Pregnancy type"
+              "id": "pregnancyType"
             },
             {
               "type": "obs",
@@ -91,17 +83,14 @@
                 "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
-              "id": "highRiskPregnancy",
-              "label": "High-risk pregnancy"
+              "id": "highRiskPregnancy"
             },
             {
               "type": "obs",
@@ -109,8 +98,7 @@
                 "rendering": "text",
                 "concept": "f3de817f-cf91-48d2-8a1b-65a51e26c298"
               },
-              "id": "referredTo",
-              "label": "Referred to"
+              "id": "referredTo"
             },
             {
               "type": "obs",
@@ -119,7 +107,6 @@
                 "concept": "82bed9fb-196e-4b46-ab48-5137cc38062e"
               },
               "id": "dateOfReferral",
-              "label": "Date of referral",
               "datePickerFormat": "calendar"
             }
           ]
@@ -136,8 +123,7 @@
                 "step": 1,
                 "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76"
               },
-              "id": "folateOfDays",
-              "label": "Folate (# of days)"
+              "id": "folateOfDays"
             },
             {
               "type": "obs",
@@ -147,8 +133,7 @@
                 "step": 1,
                 "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de"
               },
-              "id": "ironOfDays",
-              "label": "Iron (# of days)"
+              "id": "ironOfDays"
             },
             {
               "type": "obs",
@@ -158,8 +143,7 @@
                 "step": 1,
                 "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6"
               },
-              "id": "prenatalMultivitaminsOfDays",
-              "label": "Prenatal Multivitamins (# of days)"
+              "id": "prenatalMultivitaminsOfDays"
             },
             {
               "type": "obs",
@@ -169,8 +153,7 @@
                 "step": 1,
                 "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4"
               },
-              "id": "calciumOfUnits",
-              "label": "Calcium (# of units)"
+              "id": "calciumOfUnits"
             },
             {
               "type": "obs",
@@ -180,8 +163,7 @@
                 "step": 1,
                 "concept": "96278875-4d38-4caa-9973-c1dfc35918a7"
               },
-              "id": "aspirinOfUnits",
-              "label": "Aspirin (# of units)"
+              "id": "aspirinOfUnits"
             },
             {
               "type": "obs",
@@ -190,12 +172,10 @@
                 "concept": "0137d018-cb47-4bb1-a587-eb1892235ee6",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
@@ -209,17 +189,14 @@
                 "concept": "bf7e8ea2-5ec0-408f-ba9a-0c52d92daf53",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
-              "id": "mosquitoNet",
-              "label": "Mosquito Net"
+              "id": "mosquitoNet"
             },
             {
               "type": "obs",
@@ -228,17 +205,14 @@
                 "concept": "51c39f01-5e45-40e6-b68f-193d98e23b0e",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
-              "id": "hygieneKitGiven",
-              "label": "Hygiene kit given"
+              "id": "hygieneKitGiven"
             },
             {
               "type": "obs",
@@ -247,17 +221,14 @@
                 "concept": "376018df-e9ba-48c1-9a9f-6a078755f1da",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
-              "id": "deliveryKitGiven",
-              "label": "Delivery kit given"
+              "id": "deliveryKitGiven"
             },
             {
               "type": "obs",
@@ -267,8 +238,7 @@
                 "step": 1,
                 "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f"
               },
-              "id": "nutritionTreatmentOfDays",
-              "label": "Nutrition treatment (# of days)"
+              "id": "nutritionTreatmentOfDays"
             },
             {
               "type": "obs",
@@ -277,17 +247,14 @@
                 "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15",
                 "answers": [
                   {
-                    "concept": "4016c055-a54e-4986-b03a-e2212735d3d7",
-                    "label": "Risk"
+                    "concept": "4016c055-a54e-4986-b03a-e2212735d3d7"
                   },
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   }
                 ]
               },
-              "id": "ultrasoundOutcome",
-              "label": "Ultrasound outcome"
+              "id": "ultrasoundOutcome"
             }
           ]
         },
@@ -302,7 +269,6 @@
                 "concept": "7d5c6f58-2048-47e4-8dbb-cd952c01b392"
               },
               "id": "deliveryDate",
-              "label": "Delivery date",
               "datePickerFormat": "calendar"
             },
             {
@@ -312,17 +278,14 @@
                 "concept": "0ac375bc-e25b-430c-b8c5-b05472676979",
                 "answers": [
                   {
-                    "concept": "4e654cc0-5f39-471f-bf78-6f797fd1dc62",
-                    "label": "Institution"
+                    "concept": "4e654cc0-5f39-471f-bf78-6f797fd1dc62"
                   },
                   {
-                    "concept": "55f79d9b-91de-4219-a50b-9792a935c838",
-                    "label": "Community"
+                    "concept": "55f79d9b-91de-4219-a50b-9792a935c838"
                   }
                 ]
               },
-              "id": "deliveryLocation",
-              "label": "Delivery location"
+              "id": "deliveryLocation"
             },
             {
               "type": "obs",
@@ -331,16 +294,13 @@
                 "concept": "cee8d839-c6ff-47ca-aa89-6dea27e3ea9a",
                 "answers": [
                   {
-                    "concept": "dfb79477-ab61-47c4-b308-e1ab09757c18",
-                    "label": "Vaginal delivery"
+                    "concept": "dfb79477-ab61-47c4-b308-e1ab09757c18"
                   },
                   {
-                    "concept": "5066f452-5d8b-4e04-b815-0c212929e47e",
-                    "label": "C-section"
+                    "concept": "5066f452-5d8b-4e04-b815-0c212929e47e"
                   },
                   {
-                    "concept": "1e2d81d7-4a45-4443-b8f1-976287ea55ab",
-                    "label": "Instrument assisted"
+                    "concept": "1e2d81d7-4a45-4443-b8f1-976287ea55ab"
                   }
                 ]
               },
@@ -354,12 +314,10 @@
                 "concept": "aadde11e-5b2c-4ddf-a9c0-4934b30785bb",
                 "answers": [
                   {
-                    "concept": "3b735e90-36ad-43aa-898a-1db9137a0c54",
-                    "label": "Matron assist"
+                    "concept": "3b735e90-36ad-43aa-898a-1db9137a0c54"
                   },
                   {
-                    "concept": "b2abafff-e460-473a-b6f9-f40929434c2c",
-                    "label": "No assist"
+                    "concept": "b2abafff-e460-473a-b6f9-f40929434c2c"
                   }
                 ]
               },
@@ -373,29 +331,23 @@
                 "concept": "a203471c-47bc-4706-a288-6f74ecec6932",
                 "answers": [
                   {
-                    "concept": "05881966-f39e-4fba-ba23-05f127a4c3ec",
-                    "label": "Normal Pregnancy"
+                    "concept": "05881966-f39e-4fba-ba23-05f127a4c3ec"
                   },
                   {
-                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
-                    "label": "Risky Pregnancy"
+                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2"
                   },
                   {
-                    "concept": "71fbda44-fdbc-491e-a36d-e6148069c49a",
-                    "label": "Delivery"
+                    "concept": "71fbda44-fdbc-491e-a36d-e6148069c49a"
                   },
                   {
-                    "concept": "fb25b6de-d7d2-4a0b-a2e0-54517e723d03",
-                    "label": "Referred"
+                    "concept": "fb25b6de-d7d2-4a0b-a2e0-54517e723d03"
                   },
                   {
-                    "concept": "20cfecf2-d01f-4bd8-b71e-ad112ce0d7ce",
-                    "label": "10 months elapsed"
+                    "concept": "20cfecf2-d01f-4bd8-b71e-ad112ce0d7ce"
                   }
                 ]
               },
-              "id": "currentStateOfPregnancy",
-              "label": "Current state of pregnancy"
+              "id": "currentStateOfPregnancy"
             }
           ]
         }
