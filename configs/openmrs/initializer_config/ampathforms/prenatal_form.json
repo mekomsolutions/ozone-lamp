@@ -1,0 +1,366 @@
+{
+  "name": "Prenatal form",
+  "pages": [
+    {
+      "label": "Prenatal",
+      "sections": [
+        {
+          "label": "Maternal Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "f2ecd5b7-3b0c-4ea4-b31a-a5d034943707",
+                "min": "1",
+                "max": "15"
+              },
+              "id": "gravidity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "d682ced8-f3c1-4658-8645-a41bdb104893",
+                "min": "0",
+                "max": "15"
+              },
+              "id": "parity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0"
+              },
+              "id": "gravidityAndParity"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4"
+              },
+              "id": "estimatedDateOfDelivery",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf",
+                "min": "1"
+              },
+              "id": "visitNumberForThisPregnancy"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "94188dc9-b890-43fd-8fe4-26cf101d036f",
+                "answers": [
+                  {
+                    "concept": "70dc37cc-4b61-45a4-ad58-602b3590fcbf"
+                  },
+                  {
+                    "concept": "ec5216e0-aa54-41e5-8f8a-440295734cb4"
+                  }
+                ]
+              },
+              "id": "pregnancyType"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "id": "highRiskPregnancy"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "f3de817f-cf91-48d2-8a1b-65a51e26c298"
+              },
+              "id": "referredTo"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "82bed9fb-196e-4b46-ab48-5137cc38062e"
+              },
+              "id": "dateOfReferral",
+              "datePickerFormat": "calendar"
+            }
+          ]
+        },
+        {
+          "label": "Maternal Information 2",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76"
+              },
+              "id": "folateOfDays"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de"
+              },
+              "id": "ironOfDays"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6"
+              },
+              "id": "prenatalMultivitaminsOfDays"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4"
+              },
+              "id": "calciumOfUnits"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "96278875-4d38-4caa-9973-c1dfc35918a7"
+              },
+              "id": "aspirinOfUnits"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0137d018-cb47-4bb1-a587-eb1892235ee6",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "id": "chloroquineIfMalaria",
+              "label": "Chloroquine if malaria"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "bf7e8ea2-5ec0-408f-ba9a-0c52d92daf53",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "id": "mosquitoNet"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "51c39f01-5e45-40e6-b68f-193d98e23b0e",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "id": "hygieneKitGiven"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "376018df-e9ba-48c1-9a9f-6a078755f1da",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "id": "deliveryKitGiven"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "disallowDecimals": true,
+                "step": 1,
+                "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f"
+              },
+              "id": "nutritionTreatmentOfDays"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15",
+                "answers": [
+                  {
+                    "concept": "4016c055-a54e-4986-b03a-e2212735d3d7"
+                  },
+                  {
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
+                  }
+                ]
+              },
+              "id": "ultrasoundOutcome"
+            }
+          ]
+        },
+        {
+          "label": "Delivery Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "7d5c6f58-2048-47e4-8dbb-cd952c01b392"
+              },
+              "id": "deliveryDate",
+              "datePickerFormat": "calendar"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0ac375bc-e25b-430c-b8c5-b05472676979",
+                "answers": [
+                  {
+                    "concept": "4e654cc0-5f39-471f-bf78-6f797fd1dc62"
+                  },
+                  {
+                    "concept": "55f79d9b-91de-4219-a50b-9792a935c838"
+                  }
+                ]
+              },
+              "id": "deliveryLocation"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "cee8d839-c6ff-47ca-aa89-6dea27e3ea9a",
+                "answers": [
+                  {
+                    "concept": "dfb79477-ab61-47c4-b308-e1ab09757c18"
+                  },
+                  {
+                    "concept": "5066f452-5d8b-4e04-b815-0c212929e47e"
+                  },
+                  {
+                    "concept": "1e2d81d7-4a45-4443-b8f1-976287ea55ab"
+                  }
+                ]
+              },
+              "id": "methodOfDelivery",
+              "label": "Method of delivery"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "aadde11e-5b2c-4ddf-a9c0-4934b30785bb",
+                "answers": [
+                  {
+                    "concept": "3b735e90-36ad-43aa-898a-1db9137a0c54"
+                  },
+                  {
+                    "concept": "b2abafff-e460-473a-b6f9-f40929434c2c"
+                  }
+                ]
+              },
+              "id": "assistance",
+              "label": "Assistance"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a203471c-47bc-4706-a288-6f74ecec6932",
+                "answers": [
+                  {
+                    "concept": "05881966-f39e-4fba-ba23-05f127a4c3ec"
+                  },
+                  {
+                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2"
+                  },
+                  {
+                    "concept": "71fbda44-fdbc-491e-a36d-e6148069c49a"
+                  },
+                  {
+                    "concept": "fb25b6de-d7d2-4a0b-a2e0-54517e723d03"
+                  },
+                  {
+                    "concept": "20cfecf2-d01f-4bd8-b71e-ad112ce0d7ce"
+                  }
+                ]
+              },
+              "id": "currentStateOfPregnancy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
+  "encounter": "Prenatal program",
+  "referencedForms": [],
+  "uuid": "ff42ffdc-ab4c-46a6-8b06-dc9f05bd2d27",
+  "description": "Prenatal",
+  "version": "1",
+  "published": true,
+  "retired": false
+}
