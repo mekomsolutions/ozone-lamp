@@ -205,12 +205,43 @@
       },
       "prenatal-program-dashboard-slot": {
         "add": [
+          "programs-details-widget",
+          "clinical-views-summary",
           "obs-table-horizontal-widget"
         ],
         "order": [
+          "programs-details-widget",
+          "clinical-views-summary",
           "obs-table-horizontal-widget"
         ],
         "configure": {
+          "clinical-views-summary": {
+            "tileDefinitions": [
+              {
+                "tileHeader": "prenatalProgramTitle",
+                "columns": [
+                  {
+                    "id": "estimatedDateOfDelivery",
+                    "title": "Estimated Date of Delivery",
+                    "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
+                    "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4"
+                  },
+                  {
+                    "id": "pregnancyType",
+                    "title": "Pregnancy type",
+                    "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
+                    "concept": "94188dc9-b890-43fd-8fe4-26cf101d036f"
+                  }
+                ]
+              }
+            ],
+            "Translation overrides": {
+              "en": {
+                "prenatalProgramTitle": "Prenatal Program"
+              },
+              "fr": {}
+            }
+          },
           "obs-table-horizontal-widget": {
             "title": "Prenatal timeline",
             "oldestFirst": true,
