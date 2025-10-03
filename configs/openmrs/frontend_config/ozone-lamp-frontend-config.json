@@ -205,8 +205,68 @@
       },
       "prenatal-program-dashboard-slot": {
         "add": [
-          "active-medications-widget"
-        ]
+          "obs-table-horizontal-widget"
+        ],
+        "order": [
+          "obs-table-horizontal-widget"
+        ],
+        "configure": {
+          "obs-table-horizontal-widget": {
+            "title": "Prenatal timeline",
+            "oldestFirst": true,
+            "showEncounterType": false,
+            "data": [
+              {
+                "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf",
+                "label": "Visit Number"
+              },
+              {
+                "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76",
+                "label": "Folate (# of days)"
+              },
+              {
+                "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de",
+                "label": "Iron (# of days)"
+              },
+              {
+                "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6",
+                "label": "Prenatal Multivitamins (# of days)"
+              },
+              {
+                "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4",
+                "label": "Calcium (# of units)"
+              },
+              {
+                "concept": "96278875-4d38-4caa-9973-c1dfc35918a7",
+                "label": "Aspirin (# of units)"
+              },
+              {
+                "concept": "0137d018-cb47-4bb1-a587-eb1892235ee6",
+                "label": "Chloroquine if malaria"
+              },
+              {
+                "concept": "bf7e8ea2-5ec0-408f-ba9a-0c52d92daf53",
+                "label": "Mosquito Net"
+              },
+              {
+                "concept": "51c39f01-5e45-40e6-b68f-193d98e23b0e",
+                "label": "Hygiene kit given"
+              },
+              {
+                "concept": "376018df-e9ba-48c1-9a9f-6a078755f1da",
+                "label": "Delivery kit given"
+              },
+              {
+                "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f",
+                "label": "Nutrition treatment (# of days)"
+              },
+              {
+                "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15",
+                "label": "Ultrasound outcome"
+              }
+            ]
+          }
+        }
       }
     }
   },
