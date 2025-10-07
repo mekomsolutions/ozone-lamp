@@ -93,6 +93,9 @@
               "id": "highRiskPregnancy"
             },
             {
+              "hide": {
+                "hideWhenExpression": "highRiskPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "text",
@@ -101,6 +104,9 @@
               "id": "referredTo"
             },
             {
+              "hide": {
+                "hideWhenExpression": "highRiskPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "date",
@@ -108,13 +114,7 @@
               },
               "id": "dateOfReferral",
               "datePickerFormat": "calendar"
-            }
-          ]
-        },
-        {
-          "label": "Maternal Information 2",
-          "isExpanded": "true",
-          "questions": [
+            },
             {
               "type": "obs",
               "questionOptions": {
@@ -288,6 +288,9 @@
               "id": "deliveryLocation"
             },
             {
+              "hide": {
+                "hideWhenExpression": "deliveryLocation !== '4e654cc0-5f39-471f-bf78-6f797fd1dc62'"
+              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
@@ -308,6 +311,9 @@
               "label": "Method of delivery"
             },
             {
+              "hide": {
+                "hideWhenExpression": "deliveryLocation !== '55f79d9b-91de-4219-a50b-9792a935c838'"
+              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
