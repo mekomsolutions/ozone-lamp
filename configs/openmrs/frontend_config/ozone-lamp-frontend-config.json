@@ -59,8 +59,8 @@
         ],
         "order": [
           "programs-details-widget",
-          "obs-by-encounter-widget",
           "clinical-views-summary",
+          "obs-by-encounter-widget",
           "obs-table-horizontal-widget"
         ],
         "configure": {
@@ -121,7 +121,7 @@
               },
               {
                 "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Height (in Kg)"
+                "label": "Height (in cm)"
               },
               {
                 "concept": "7c383fa5-d85b-4b5f-b41f-d86826403969",
@@ -224,7 +224,8 @@
                     "id": "estimatedDateOfDelivery",
                     "title": "Estimated Date of Delivery",
                     "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
-                    "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4"
+                    "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4",
+                    "isDate": true
                   },
                   {
                     "id": "pregnancyType",
