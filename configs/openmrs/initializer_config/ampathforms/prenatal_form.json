@@ -98,17 +98,6 @@
               },
               "type": "obs",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "f3de817f-cf91-48d2-8a1b-65a51e26c298"
-              },
-              "id": "referredTo"
-            },
-            {
-              "hide": {
-                "hideWhenExpression": "highRiskPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
-              },
-              "type": "obs",
-              "questionOptions": {
                 "rendering": "date",
                 "concept": "82bed9fb-196e-4b46-ab48-5137cc38062e"
               },
@@ -255,6 +244,28 @@
                 ]
               },
               "id": "ultrasoundOutcome"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a203471c-47bc-4706-a288-6f74ecec6932",
+                "answers": [
+                  {
+                    "concept": "05881966-f39e-4fba-ba23-05f127a4c3ec"
+                  },
+                  {
+                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2"
+                  },
+                  {
+                    "concept": "71fbda44-fdbc-491e-a36d-e6148069c49a"
+                  },
+                  {
+                    "concept": "20cfecf2-d01f-4bd8-b71e-ad112ce0d7ce"
+                  }
+                ]
+              },
+              "id": "currentStateOfPregnancy"
             }
           ]
         },
@@ -263,6 +274,9 @@
           "isExpanded": "true",
           "questions": [
             {
+              "hide": {
+                "hideWhenExpression": "currentStateOfPregnancy !== '71fbda44-fdbc-491e-a36d-e6148069c49a'"
+              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "date",
@@ -272,6 +286,9 @@
               "datePickerFormat": "calendar"
             },
             {
+              "hide": {
+                "hideWhenExpression": "currentStateOfPregnancy !== '71fbda44-fdbc-491e-a36d-e6148069c49a'"
+              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
@@ -334,26 +351,56 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
-                "concept": "a203471c-47bc-4706-a288-6f74ecec6932",
+                "concept": "704f4fa5-4771-4847-a9a0-5156ff611b76",
                 "answers": [
                   {
-                    "concept": "05881966-f39e-4fba-ba23-05f127a4c3ec"
+                    "concept": "c5abded0-fda7-4c21-a1b4-8c7813a2ecef"
                   },
                   {
-                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2"
+                    "concept": "5e20d814-7520-48d1-a550-40f982aaeb1d"
                   },
                   {
-                    "concept": "71fbda44-fdbc-491e-a36d-e6148069c49a"
+                    "concept": "27176fcf-1551-4278-a21c-e6188141b999"
                   },
                   {
-                    "concept": "fb25b6de-d7d2-4a0b-a2e0-54517e723d03"
+                    "concept": "0ec20507-a10f-44f3-b54f-b1a0135b34d2"
                   },
                   {
-                    "concept": "20cfecf2-d01f-4bd8-b71e-ad112ce0d7ce"
+                    "concept": "011073f8-3e3a-4039-8e20-92b148658c80"
+                  },
+                  {
+                    "concept": "927f79e3-678b-4d6e-9143-49b4fdeadcbf"
+                  },
+                  {
+                    "concept": "b35f66c7-9290-44c3-bb2a-24bfbd05213f"
+                  },
+                  {
+                    "concept": "82ca0e72-17b7-479e-98f2-203bbb73e9d9"
+                  },
+                  {
+                    "concept": "ef947ac7-203e-428c-b6bc-d0c2ee9027e7"
+                  },
+                  {
+                    "concept": "eda808c5-5ff8-4757-a176-6e7c3f0bb01b"
+                  },
+                  {
+                    "concept": "8612c60c-a31e-4f98-b169-945caebd30c6"
+                  },
+                  {
+                    "concept": "b01fe980-6859-421b-b302-534d85862bd8"
+                  },
+                  {
+                    "concept": "1cac8d76-46f1-46d3-a595-d29ee04cc6c1"
+                  },
+                  {
+                    "concept": "ea22c04d-e705-49f5-9557-35a47fc7840e"
+                  },
+                  {
+                    "concept": "cc1cdf23-e3d4-44da-a041-b58a81cce72b"
                   }
                 ]
               },
-              "id": "currentStateOfPregnancy"
+              "id": "referredTo"
             }
           ]
         }
