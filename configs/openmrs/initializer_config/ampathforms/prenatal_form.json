@@ -15,9 +15,9 @@
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "f2ecd5b7-3b0c-4ea4-b31a-a5d034943707",
-                "min": "1",
-                "max": "15",
-                "defaultValue": "1"
+                "min": 1,
+                "max": 15,
+                "defaultValue": 1
               },
               "id": "gravidity"
             },
@@ -28,9 +28,9 @@
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "d682ced8-f3c1-4658-8645-a41bdb104893",
-                "min": "0",
-                "max": "15",
-                "defaultValue": "0"
+                "min": 0,
+                "max": 15,
+                "defaultValue": 1
               },
               "id": "parity"
             },
