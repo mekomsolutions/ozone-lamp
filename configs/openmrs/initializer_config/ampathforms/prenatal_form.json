@@ -16,7 +16,8 @@
                 "step": 1,
                 "concept": "f2ecd5b7-3b0c-4ea4-b31a-a5d034943707",
                 "min": "1",
-                "max": "15"
+                "max": "15",
+                "defaultValue": "1"
               },
               "id": "gravidity"
             },
@@ -28,7 +29,8 @@
                 "step": 1,
                 "concept": "d682ced8-f3c1-4658-8645-a41bdb104893",
                 "min": "0",
-                "max": "15"
+                "max": "15",
+                "defaultValue": "0"
               },
               "id": "parity"
             },
@@ -36,7 +38,10 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "text",
-                "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0"
+                "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0",
+                "calculate": {
+                  "calculateExpression": "'G' + parseInt(gravidity) + 'P' + parseFloat(parity)"
+                }
               },
               "id": "gravidityAndParity"
             },
