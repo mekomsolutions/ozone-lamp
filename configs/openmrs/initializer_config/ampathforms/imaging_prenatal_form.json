@@ -1,0 +1,50 @@
+{
+  "name": "Utlrasound results - Prenatal form",
+  "pages": [
+    {
+      "label": "Utlrasound results - Prenatal",
+      "sections": [
+        {
+          "label": "Utlrasound results - Prenatal",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "05e7996a-73bc-42f4-8930-36eea91d8743",
+                "answers": [
+                  {
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
+                  },
+                  {
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
+                  }
+                ]
+              },
+              "id": "interpretation"
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "notes",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "5fa80afc-1c9d-4e97-aa2c-93476d0eb464"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "f0775a7e-953c-40b0-b212-11e07f1d5d00",
+  "encounter": "Utlrasound results - Prenatal",
+  "referencedForms": [],
+  "uuid": "30022eaf-b935-41f4-bbc4-16782f9ebaf5",
+  "description": "Utlrasound results - Prenatal",
+  "version": "1",
+  "published": true,
+  "retired": false
+}

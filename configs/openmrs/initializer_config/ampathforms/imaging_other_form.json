@@ -1,0 +1,50 @@
+{
+  "name": "Utlrasound results  - Other form",
+  "pages": [
+    {
+      "label": "Utlrasound results  - Other",
+      "sections": [
+        {
+          "label": "Utlrasound results  - Other",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "05e7996a-73bc-42f4-8930-36eea91d8743",
+                "answers": [
+                  {
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
+                  },
+                  {
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
+                  }
+                ]
+              },
+              "id": "interpretation"
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "notes",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "5fa80afc-1c9d-4e97-aa2c-93476d0eb464"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "693594f5-c52a-4234-911a-8781b336fe14",
+  "encounter": "Utlrasound results  - Other",
+  "referencedForms": [],
+  "uuid": "7a14fbdd-808d-4aed-87cd-5d3034927cd8",
+  "description": "Utlrasound results  - Other",
+  "version": "1",
+  "published": true,
+  "retired": false
+}
