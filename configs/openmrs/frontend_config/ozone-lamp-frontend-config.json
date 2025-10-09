@@ -65,7 +65,7 @@
         ],
         "configure": {
           "obs-by-encounter-widget": {
-            "title": "Child Nutrition Weight & Goal Weight",
+            "title": "Weight and Goal Weight",
             "resultsName": "Weight & Goal Weight",
             "showGraphByDefault": true,
             "data": [
@@ -86,13 +86,13 @@
                 "columns": [
                   {
                     "id": "cnGoalWeight",
-                    "title": "Goal Weight (kg)",
+                    "title": "cnGoalWeight",
                     "encounterType": "a46c50d1-f8f2-4b73-9940-7e77c64bcffc",
                     "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5"
                   },
                   {
                     "id": "cnExpectedTreatmentDuration",
-                    "title": "Expected treatment duration",
+                    "title": "cnExpectedTreatmentDuration",
                     "encounterType": "a46c50d1-f8f2-4b73-9940-7e77c64bcffc",
                     "concept": "b09b835d-e416-4350-99ad-34ed6762d231"
                   }
@@ -101,9 +101,18 @@
             ],
             "Translation overrides": {
               "en": {
-                "childNutritionProgramTitle": "Child Nutrition Program"
+                "weightAndGoalWeight":"Weight and Goal Weight",
+                "childNutritionProgramTitle": "Child Nutrition",
+                "cnGoalWeight":"Goal Weight",
+                "cnExpectedTreatmentDuration": "Expected treatment duration"
               },
-              "fr": {}
+              "fr": {
+                "weightAndGoalWeight":"Poids et poids cible",
+                "childNutritionProgramTitle": "Malnutrition infantile",
+                "cnGoalWeight":"Poids cible",
+                "cnExpectedTreatmentDuration": "Durée prévue du traitement"
+
+              }
             }
           },
           "obs-table-horizontal-widget": {
@@ -113,91 +122,91 @@
             "data": [
               {
                 "concept": "a03415e1-741a-41f5-8671-62216ec0ad40",
-                "label": "Mid upper arm circumference (in mm)"
+                "label": "midUpperArmCircumference"
               },
               {
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Weight (in Kg)"
+                "label": "weight"
               },
               {
                 "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Height (in cm)"
+                "label": "height"
               },
               {
                 "concept": "7c383fa5-d85b-4b5f-b41f-d86826403969",
-                "label": "Appetite"
+                "label": "appetite"
               },
               {
                 "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Diarrhea"
+                "label": "diarrhea"
               },
               {
                 "concept": "f4da9202-f358-469c-9987-55cae483cbbb",
-                "label": "Dehydration"
+                "label": "dehydration"
               },
               {
                 "concept": "122496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Dyspnea"
+                "label": "dyspnea"
               },
               {
                 "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Cough"
+                "label": "cough"
               },
               {
                 "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
-                "label": "Fever"
+                "label": "fever"
               },
               {
                 "concept": "ff40f714-0460-4018-85b0-75bf4f65176b",
-                "label": "Edema 1+"
+                "label": "edema1"
               },
               {
                 "concept": "f261bbdb-7800-4453-a4d7-852938e8d038",
-                "label": "Edema 2+"
+                "label": "edema2"
               },
               {
                 "concept": "b6174211-0f91-4f71-9793-c828aefcbd7f",
-                "label": "Mamba (# of sachets)"
+                "label": "mamba"
               },
               {
                 "concept": "b51dd1ec-61f3-4da2-bc7a-2522a69a2e10",
-                "label": "Supplement #1 (# of units)"
+                "label": "supplement1"
               },
               {
                 "concept": "55b2fab4-b9de-4f84-af0f-413baf9b3d84",
-                "label": "Supplement #2 (# of units)"
+                "label": "supplement2"
               },
               {
                 "concept": "c1deefb9-cccb-4804-a7b5-711cc8b74a5c",
-                "label": "Supplement #3 (# of units)"
+                "label": "supplement3"
               },
               {
-                "concept": "70439AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Albendazole"
+                "concept": "8f668b49-584f-4cba-b0f2-817a8aaf50c4",
+                "label": "albendazole"
               },
               {
-                "concept": "71188AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "Ampicillin"
+                "concept": "f9f69437-669d-4a3e-930b-b36994a2f9d4",
+                "label": "ampicillin"
               },
               {
                 "concept": "74a12aad-45cc-42f0-a99b-0d503c25654c",
-                "label": "Chlorine/Aquatabs"
+                "label": "chlorineAquatabs"
               },
               {
                 "concept": "27b1ab50-5e44-4ff5-9974-0a9791542a23",
-                "label": "Oral rehydration salts"
+                "label": "oralRehydrationSalts"
               },
               {
                 "concept": "2670dbf0-e52e-440f-aa09-5aca95f52146",
-                "label": "Transportation stipend"
+                "label": "transportationStipend"
               },
               {
                 "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                "label": "Other"
+                "label": "other"
               },
               {
                 "concept": "5fa80afc-1c9d-4e97-aa2c-93476d0eb464",
-                "label": "Notes"
+                "label": "notes"
               }
             ]
           }
@@ -222,14 +231,14 @@
                 "columns": [
                   {
                     "id": "estimatedDateOfDelivery",
-                    "title": "Estimated Date of Delivery",
+                    "title": "estimatedDateOfDelivery",
                     "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
                     "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4",
                     "isDate": true
                   },
                   {
                     "id": "pregnancyType",
-                    "title": "Pregnancy type",
+                    "title": "pregnancyType",
                     "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
                     "concept": "94188dc9-b890-43fd-8fe4-26cf101d036f"
                   }
@@ -238,9 +247,15 @@
             ],
             "Translation overrides": {
               "en": {
-                "prenatalProgramTitle": "Prenatal Program"
+                "prenatalProgramTitle": "Prenatal",
+                "estimatedDateOfDelivery": "Estimated date of delivery",
+                "pregnancyType": "Pregnancy type"
               },
-              "fr": {}
+              "fr": {
+                "prenatalProgramTitle": "Prénatal",
+                "estimatedDateOfDelivery": "Date prévue d'accouchement",
+                "pregnancyType": "Type de grossesse"
+              }
             }
           },
           "obs-table-horizontal-widget": {
@@ -250,51 +265,51 @@
             "data": [
               {
                 "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf",
-                "label": "Visit Number"
+                "label": "visitNumber"
               },
               {
                 "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76",
-                "label": "Folate (# of days of treatment)"
+                "label": "folate"
               },
               {
                 "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de",
-                "label": "Iron (# of days of treatment)"
+                "label": "iron"
               },
               {
                 "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6",
-                "label": "Prenatal Multivitamins (# of days of treatment)"
+                "label": "prenatalMultivitamines"
               },
               {
                 "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4",
-                "label": "Calcium (# of days of treatment)"
+                "label": "calcium"
               },
               {
                 "concept": "96278875-4d38-4caa-9973-c1dfc35918a7",
-                "label": "Aspirin(# of days of treatment)"
+                "label": "aspirin"
               },
               {
                 "concept": "0137d018-cb47-4bb1-a587-eb1892235ee6",
-                "label": "Chloroquine if malaria"
+                "label": "chloroquineIfMalaria"
               },
               {
                 "concept": "bf7e8ea2-5ec0-408f-ba9a-0c52d92daf53",
-                "label": "Mosquito net given"
+                "label": "mosquitoNetGiven"
               },
               {
                 "concept": "51c39f01-5e45-40e6-b68f-193d98e23b0e",
-                "label": "Hygiene kit given"
+                "label": "hygieneKitGiven"
               },
               {
                 "concept": "376018df-e9ba-48c1-9a9f-6a078755f1da",
-                "label": "Delivery kit given"
+                "label": "deliveryKitGiven"
               },
               {
                 "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f",
-                "label": "Nutrition treatment given (# of packets)"
+                "label": "nutritionTreatmentGiven"
               },
               {
                 "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15",
-                "label": "Ultrasound risk assessment"
+                "label": "ultrasoundRiskAssessment"
               }
             ]
           }
@@ -305,10 +320,76 @@
   "@openmrs/esm-generic-patient-widgets-app": {
     "Translation overrides": {
       "en": {
-        "midUpperArmCircumference": "Mid upper arm circumference (in mm)"
+        "midUpperArmCircumference": "Mid upper arm circumference (in mm)",
+        "weight": "Weight",
+        "height": "Height",
+        "appetite": "Appetite",
+        "diarrhea": "Diarrhea",
+        "dehydration": "Signs of dehydration",
+        "dyspnea": "Dyspnea",
+        "cough": "Cough",
+        "fever": "Fever",
+        "edema1": "Edema 1+",
+        "edema2": "Edema 2+",
+        "mamba": "Mamba (# of sachets)",
+        "supplement1": "Supplement #1 (# of units)",
+        "supplement2": "Supplement #2 (# of units)",
+        "supplement3": "Supplement #3 (# of units)",
+        "albendazole": "Albendazole",
+        "ampicillin": "Ampicillin",
+        "chlorineAquatabs": "Chlorine/Aquatabs",
+        "oralRehydrationSalts": "Oral rehydration salts",
+        "transportationStipend": "Transportation stipend",
+        "other": "Other",
+        "notes": "Notes",
+        "visitNumber": "Visit number for this pregnancy",
+        "folate": "Folate (# of days of treatment)",
+        "iron": "Iron (# of days of treatment)",
+        "prenatalMultivitamines": "Prenatal Multivitamines (# of days of treatment)",
+        "calcium": "Calcium (# of days of treatment)",
+        "aspirin": "Aspirin(# of days of treatment)",
+        "chloroquineIfMalaria": "Chloroquine if malaria",
+        "mosquitoNetGiven": "Mosquito net given",
+        "hygieneKitGiven": "Hygiene kit given",
+        "deliveryKitGiven": "Delivery kit given",
+        "nutritionTreatmentGiven": "Nutrition treatment given (# of packets)",
+        "ultrasoundRiskAssessment": "Ultrasound risk assessment"
       },
       "fr": {
-        "midUpperArmCircumference": "Circonférence du bras (en mm)"
+        "midUpperArmCircumference": "Circonférence du bras (en mm)",
+        "weight": "Poids",
+        "height": "Taille",
+        "appetite": "Appétit",
+        "diarrhea": "Diarrhée",
+        "dehydration": "Signes de déshydratation",
+        "dyspnea": "Dyspnée",
+        "cough": "Toux",
+        "fever": "Fièvre",
+        "edema1": "Œdème 1+",
+        "edema2": "Œdème 2+",
+        "mamba": "Mamba (nombre de sachets)",
+        "supplement1": "Supplément nutritionnel 1 (nombre d’unités)",
+        "supplement2": "Supplément nutritionnel 2 (nombre d’unités)",
+        "supplement3": "Supplément nutritionnel 3 (nombre d’unités)",
+        "albendazole": "Albendazole",
+        "ampicillin": "Ampicilline",
+        "chlorineAquatabs": "Pastilles de chlore/Aquatabs",
+        "oralRehydrationSalts": "Sels de réhydratation par voie orale",
+        "transportationStipend": "Allocation de transport",
+        "other": "Autre",
+        "notes": "Notes",
+        "visitNumber": "Numéro de visite pour cette grossesse",
+        "folate": "Folate (# de jours de traitement)",
+        "iron": "Fer (# de jours de traitement)",
+        "prenatalMultivitamines": "Multivitamines prénatales (# de jours de traitement)",
+        "calcium": "Calcium (# de jours de traitement)",
+        "aspirin": "Aspirine (# de jours de traitement)",
+        "chloroquineIfMalaria": "Chloroquine si malaria/paludisme",
+        "mosquitoNetGiven": "Moustiquaire fournie",
+        "hygieneKitGiven": "Kit hygiénique fourni",
+        "deliveryKitGiven": "Kit d’accouchement fourni",
+        "nutritionTreatmentGiven": "Traitement nutritionnel fourni (# de paquets)",
+        "ultrasoundRiskAssessment": "Évaluation du risque après échographie"
       }
     }
   },
