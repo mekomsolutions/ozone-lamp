@@ -277,7 +277,7 @@
               },
               {
                 "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6",
-                "label": "prenatalMultivitamins"
+                "label": "prenatalMultivitamines"
               },
               {
                 "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4",
@@ -345,7 +345,7 @@
         "visitNumber": "Visit number for this pregnancy",
         "folate": "Folate (# of days of treatment)",
         "iron": "Iron (# of days of treatment)",
-        "prenatalMultivitamins": "Prenatal Multivitamins (# of days of treatment)",
+        "prenatalMultivitamines": "Prenatal Multivitamines (# of days of treatment)",
         "calcium": "Calcium (# of days of treatment)",
         "aspirin": "Aspirin(# of days of treatment)",
         "chloroquineIfMalaria": "Chloroquine if malaria",
@@ -367,7 +367,7 @@
         "fever": "Fièvre",
         "edema1": "Œdème 1+",
         "edema2": "Œdème 2+",
-        "mamba": "Manba (nombre de sachets)",
+        "mamba": "Mamba (nombre de sachets)",
         "supplement1": "Supplément nutritionnel 1 (nombre d’unités)",
         "supplement2": "Supplément nutritionnel 2 (nombre d’unités)",
         "supplement3": "Supplément nutritionnel 3 (nombre d’unités)",
@@ -381,7 +381,7 @@
         "visitNumber": "Numéro de visite pour cette grossesse",
         "folate": "Folate (# de jours de traitement)",
         "iron": "Fer (# de jours de traitement)",
-        "prenatalMultivitamins": "Multivitamins prénatales (# de jours de traitement)",
+        "prenatalMultivitamines": "Multivitamines prénatales (# de jours de traitement)",
         "calcium": "Calcium (# de jours de traitement)",
         "aspirin": "Aspirine (# de jours de traitement)",
         "chloroquineIfMalaria": "Chloroquine si malaria/paludisme",

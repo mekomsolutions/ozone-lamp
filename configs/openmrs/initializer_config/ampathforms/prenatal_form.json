@@ -37,7 +37,7 @@
             {
               "type": "obs",
               "questionOptions": {
-                "rendering": "text",
+                "rendering": "fixed-value",
                 "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0",
                 "calculate": {
                   "calculateExpression": "'G' + parseInt(gravidity) + 'P' + parseFloat(parity)"
@@ -137,7 +137,7 @@
                 "step": 1,
                 "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6"
               },
-              "id": "prenatalMultivitaminsOfDays"
+              "id": "prenatalMultivitaminesOfDays"
             },
             {
               "type": "obs",
