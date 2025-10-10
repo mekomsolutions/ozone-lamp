@@ -1,0 +1,50 @@
+{
+  "name": "X-ray results form",
+  "pages": [
+    {
+      "label": "X-ray results",
+      "sections": [
+        {
+          "label": "X-ray results",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "05e7996a-73bc-42f4-8930-36eea91d8743",
+                "answers": [
+                  {
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
+                  },
+                  {
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
+                  }
+                ]
+              },
+              "id": "interpretation"
+            },
+            {
+              "type": "obs",
+              "required": false,
+              "id": "notes",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "5fa80afc-1c9d-4e97-aa2c-93476d0eb464"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "ed85d8ac-214a-4d15-9dc9-0c2b23c20f5b",
+  "encounter": "X-ray results",
+  "referencedForms": [],
+  "uuid": "dbfaabf2-e3c9-4bd8-b110-44d8caa01582",
+  "description": "X-ray results",
+  "version": "1",
+  "published": true,
+  "retired": false
+}
