@@ -1,5 +1,5 @@
 {
-  "name": "Prenatal form",
+  "name": "Prénatal",
   "pages": [
     {
       "label": "Prenatal",
@@ -96,18 +96,6 @@
                 ]
               },
               "id": "highRiskPregnancy"
-            },
-            {
-              "hide": {
-                "hideWhenExpression": "highRiskPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
-              },
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "date",
-                "concept": "82bed9fb-196e-4b46-ab48-5137cc38062e"
-              },
-              "id": "dateOfReferral",
-              "datePickerFormat": "calendar"
             },
             {
               "type": "obs",
@@ -351,7 +339,16 @@
               },
               "id": "assistance",
               "label": "Assistance"
-            },
+            }
+          ]
+        },
+        {
+          "label": "Referral Information",
+          "isExpanded": "true",
+          "hide": {
+            "hideWhenExpression": "highRiskPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+          },
+          "questions": [
             {
               "type": "obs",
               "questionOptions": {
