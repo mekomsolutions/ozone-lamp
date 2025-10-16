@@ -1,11 +1,11 @@
 {
-  "name": "Utlrasound results - Prenatal form",
+  "name": "Résultats d’échographie prénatale",
   "pages": [
     {
-      "label": "Utlrasound results - Prenatal",
+      "label": "Résultats d’échographie prénatale",
       "sections": [
         {
-          "label": "Utlrasound results - Prenatal",
+          "label": "Résultats d’échographie prénatale",
           "isExpanded": "true",
           "questions": [
             {

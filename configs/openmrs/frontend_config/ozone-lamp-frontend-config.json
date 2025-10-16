@@ -101,17 +101,16 @@
             ],
             "Translation overrides": {
               "en": {
-                "weightAndGoalWeight":"Weight and Goal Weight",
+                "weightAndGoalWeight": "Weight and Goal Weight",
                 "childNutritionProgramTitle": "Child Nutrition",
-                "cnGoalWeight":"Goal Weight",
+                "cnGoalWeight": "Goal Weight",
                 "cnExpectedTreatmentDuration": "Expected treatment duration"
               },
               "fr": {
-                "weightAndGoalWeight":"Poids et poids cible",
+                "weightAndGoalWeight": "Poids et poids cible",
                 "childNutritionProgramTitle": "Malnutrition infantile",
-                "cnGoalWeight":"Poids cible",
+                "cnGoalWeight": "Poids cible",
                 "cnExpectedTreatmentDuration": "Durée prévue du traitement"
-
               }
             }
           },
@@ -268,6 +267,10 @@
                 "label": "visitNumber"
               },
               {
+                "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0",
+                "label": "gravidityAndParity"
+              },
+              {
                 "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76",
                 "label": "folate"
               },
@@ -321,8 +324,8 @@
     "Translation overrides": {
       "en": {
         "midUpperArmCircumference": "Mid upper arm circumference (in mm)",
-        "weight": "Weight",
-        "height": "Height",
+        "weight": "Weight (kg)",
+        "height": "Height (cm)",
         "appetite": "Appetite",
         "diarrhea": "Diarrhea",
         "dehydration": "Signs of dehydration",
@@ -343,6 +346,7 @@
         "other": "Other",
         "notes": "Notes",
         "visitNumber": "Visit number for this pregnancy",
+        "gravidityAndParity": "Gravidity & Parity",
         "folate": "Folate (# of days of treatment)",
         "iron": "Iron (# of days of treatment)",
         "prenatalMultivitamines": "Prenatal Multivitamines (# of days of treatment)",
@@ -357,8 +361,8 @@
       },
       "fr": {
         "midUpperArmCircumference": "Circonférence du bras (en mm)",
-        "weight": "Poids",
-        "height": "Taille",
+        "weight": "Poids (kg)",
+        "height": "Taille (cm)",
         "appetite": "Appétit",
         "diarrhea": "Diarrhée",
         "dehydration": "Signes de déshydratation",
@@ -379,6 +383,7 @@
         "other": "Autre",
         "notes": "Notes",
         "visitNumber": "Numéro de visite pour cette grossesse",
+        "gravidityAndParity": "Gravidité et Parité",
         "folate": "Folate (# de jours de traitement)",
         "iron": "Fer (# de jours de traitement)",
         "prenatalMultivitamines": "Multivitamines prénatales (# de jours de traitement)",
