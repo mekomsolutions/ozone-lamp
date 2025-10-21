@@ -341,6 +341,37 @@
             },
             {
               "type": "obs",
+              "id": "rutf",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "465e7ed7-35fc-4f2f-9366-c0704b5a1b86",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "hide": {
+                "hideWhenExpression": "rutf !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              },
+              "type": "obs",
+              "id": "numberOfSachetsDispensed",
+              "questionOptions": {
+                "rendering": "number",
+                "step": 1,
+                "concept": "b6174211-0f91-4f71-9793-c828aefcbd7f",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "type": "obs",
               "id": "supplement1",
               "questionOptions": {
                 "rendering": "number",
