@@ -65,9 +65,10 @@
         ],
         "configure": {
           "obs-by-encounter-widget": {
-            "title": "Weight and Goal Weight",
+            "title": "weightAndGoalWeight",
             "resultsName": "Weight & Goal Weight",
             "showGraphByDefault": true,
+            "graphOldestFirst": true,
             "data": [
               {
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -101,13 +102,11 @@
             ],
             "Translation overrides": {
               "en": {
-                "weightAndGoalWeight": "Weight and Goal Weight",
                 "childNutritionProgramTitle": "Child Nutrition",
                 "cnGoalWeight": "Goal Weight",
                 "cnExpectedTreatmentDuration": "Expected treatment duration"
               },
               "fr": {
-                "weightAndGoalWeight": "Poids et poids cible",
                 "childNutritionProgramTitle": "Malnutrition infantile",
                 "cnGoalWeight": "Poids cible",
                 "cnExpectedTreatmentDuration": "Durée prévue du traitement"
@@ -115,7 +114,7 @@
             }
           },
           "obs-table-horizontal-widget": {
-            "title": "Child Nutrition timeline",
+            "title": "childNutritionTimeline",
             "oldestFirst": true,
             "showEncounterType": false,
             "data": [
@@ -240,6 +239,12 @@
                     "title": "pregnancyType",
                     "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
                     "concept": "94188dc9-b890-43fd-8fe4-26cf101d036f"
+                  },
+                  {
+                    "id": "gravidityAndParity",
+                    "title": "gravidityAndParity",
+                    "encounterType": "919115d3-206c-456e-a74d-00c0669a83eb",
+                    "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0"
                   }
                 ]
               }
@@ -248,17 +253,19 @@
               "en": {
                 "prenatalProgramTitle": "Prenatal",
                 "estimatedDateOfDelivery": "Estimated date of delivery",
-                "pregnancyType": "Pregnancy type"
+                "pregnancyType": "Pregnancy type",
+                "gravidityAndParity": "Gravidity & Parity"
               },
               "fr": {
                 "prenatalProgramTitle": "Prénatal",
                 "estimatedDateOfDelivery": "Date prévue d'accouchement",
-                "pregnancyType": "Type de grossesse"
+                "pregnancyType": "Type de grossesse",
+                "gravidityAndParity": "Gravidité et Parité"
               }
             }
           },
           "obs-table-horizontal-widget": {
-            "title": "Prenatal timeline",
+            "title": "prenatalTimeline",
             "oldestFirst": true,
             "showEncounterType": false,
             "data": [
@@ -323,6 +330,9 @@
   "@openmrs/esm-generic-patient-widgets-app": {
     "Translation overrides": {
       "en": {
+        "weightAndGoalWeight": "Weight and Goal Weight",
+        "childNutritionTimeline": "Child Nutrition Timeline",
+        "prenatalTimeline": "Prenatal Timeline",
         "midUpperArmCircumference": "Mid upper arm circumference (in mm)",
         "weight": "Weight (kg)",
         "height": "Height (cm)",
@@ -360,6 +370,9 @@
         "ultrasoundRiskAssessment": "Ultrasound risk assessment"
       },
       "fr": {
+        "weightAndGoalWeight": "Poids et poids cible",
+        "childNutritionTimeline": "Chronologie de la nutrition de l’enfant",
+        "prenatalTimeline": "Chronologie prénatale",
         "midUpperArmCircumference": "Circonférence du bras (en mm)",
         "weight": "Poids (kg)",
         "height": "Taille (cm)",
