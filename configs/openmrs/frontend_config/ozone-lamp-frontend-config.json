@@ -124,92 +124,70 @@
             "showEncounterType": false,
             "data": [
               {
-                "concept": "a03415e1-741a-41f5-8671-62216ec0ad40",
-                "label": "midUpperArmCircumference"
+                "concept": "a03415e1-741a-41f5-8671-62216ec0ad40"
               },
               {
-                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "weight"
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
-                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "height"
+                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
-                "concept": "7c383fa5-d85b-4b5f-b41f-d86826403969",
-                "label": "appetite"
+                "concept": "7c383fa5-d85b-4b5f-b41f-d86826403969"
               },
               {
-                "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "diarrhea"
+                "concept": "142412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
-                "concept": "f4da9202-f358-469c-9987-55cae483cbbb",
-                "label": "dehydration"
+                "concept": "f4da9202-f358-469c-9987-55cae483cbbb"
               },
               {
-                "concept": "122496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "dyspnea"
+                "concept": "122496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
-                "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "label": "cough"
+                "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
-                "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
-                "label": "fever"
+                "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3"
               },
               {
-                "concept": "ff40f714-0460-4018-85b0-75bf4f65176b",
-                "label": "edema1"
+                "concept": "ff40f714-0460-4018-85b0-75bf4f65176b"
               },
               {
-                "concept": "f261bbdb-7800-4453-a4d7-852938e8d038",
-                "label": "edema2"
+                "concept": "f261bbdb-7800-4453-a4d7-852938e8d038"
               },
               {
-                "concept": "465e7ed7-35fc-4f2f-9366-c0704b5a1b86",
-                "label": "rutf"
+                "concept": "465e7ed7-35fc-4f2f-9366-c0704b5a1b86"
               },
               {
-                "concept": "b6174211-0f91-4f71-9793-c828aefcbd7f",
-                "label": "numberOfRutfSachetsDispensed"
+                "concept": "b6174211-0f91-4f71-9793-c828aefcbd7f"
               },
               {
-                "concept": "b51dd1ec-61f3-4da2-bc7a-2522a69a2e10",
-                "label": "supplement1"
+                "concept": "b51dd1ec-61f3-4da2-bc7a-2522a69a2e10"
               },
               {
-                "concept": "55b2fab4-b9de-4f84-af0f-413baf9b3d84",
-                "label": "supplement2"
+                "concept": "55b2fab4-b9de-4f84-af0f-413baf9b3d84"
               },
               {
-                "concept": "c1deefb9-cccb-4804-a7b5-711cc8b74a5c",
-                "label": "supplement3"
+                "concept": "c1deefb9-cccb-4804-a7b5-711cc8b74a5c"
               },
               {
-                "concept": "8f668b49-584f-4cba-b0f2-817a8aaf50c4",
-                "label": "albendazole"
+                "concept": "8f668b49-584f-4cba-b0f2-817a8aaf50c4"
               },
               {
-                "concept": "f9f69437-669d-4a3e-930b-b36994a2f9d4",
-                "label": "ampicillin"
+                "concept": "f9f69437-669d-4a3e-930b-b36994a2f9d4"
               },
               {
-                "concept": "74a12aad-45cc-42f0-a99b-0d503c25654c",
-                "label": "chlorineAquatabs"
+                "concept": "74a12aad-45cc-42f0-a99b-0d503c25654c"
               },
               {
-                "concept": "27b1ab50-5e44-4ff5-9974-0a9791542a23",
-                "label": "oralRehydrationSalts"
+                "concept": "27b1ab50-5e44-4ff5-9974-0a9791542a23"
               },
               {
-                "concept": "2670dbf0-e52e-440f-aa09-5aca95f52146",
-                "label": "transportationStipend"
+                "concept": "2670dbf0-e52e-440f-aa09-5aca95f52146"
               },
               {
-                "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                "label": "other"
+                "concept": "26c0366b-83e4-4401-9699-e545219b8870"
               }
             ]
           }
@@ -275,56 +253,43 @@
             "showEncounterType": false,
             "data": [
               {
-                "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf",
-                "label": "visitNumber"
+                "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf"
               },
               {
-                "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0",
-                "label": "gravidityAndParity"
+                "concept": "87cbeb2a-030a-48da-beb2-ee58f84414c0"
               },
               {
-                "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76",
-                "label": "folate"
+                "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76"
               },
               {
-                "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de",
-                "label": "iron"
+                "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de"
               },
               {
-                "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6",
-                "label": "prenatalMultivitamines"
+                "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6"
               },
               {
-                "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4",
-                "label": "calcium"
+                "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4"
               },
               {
-                "concept": "96278875-4d38-4caa-9973-c1dfc35918a7",
-                "label": "aspirin"
+                "concept": "96278875-4d38-4caa-9973-c1dfc35918a7"
               },
               {
-                "concept": "0137d018-cb47-4bb1-a587-eb1892235ee6",
-                "label": "chloroquineIfMalaria"
+                "concept": "0137d018-cb47-4bb1-a587-eb1892235ee6"
               },
               {
-                "concept": "bf7e8ea2-5ec0-408f-ba9a-0c52d92daf53",
-                "label": "mosquitoNetGiven"
+                "concept": "bf7e8ea2-5ec0-408f-ba9a-0c52d92daf53"
               },
               {
-                "concept": "51c39f01-5e45-40e6-b68f-193d98e23b0e",
-                "label": "hygieneKitGiven"
+                "concept": "51c39f01-5e45-40e6-b68f-193d98e23b0e"
               },
               {
-                "concept": "376018df-e9ba-48c1-9a9f-6a078755f1da",
-                "label": "deliveryKitGiven"
+                "concept": "376018df-e9ba-48c1-9a9f-6a078755f1da"
               },
               {
-                "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f",
-                "label": "nutritionTreatmentGiven"
+                "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f"
               },
               {
-                "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15",
-                "label": "ultrasoundRiskAssessment"
+                "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15"
               }
             ]
           }
@@ -339,82 +304,12 @@
       "en": {
         "weightAndGoalWeight": "Weight and Goal Weight",
         "childNutritionTimeline": "Child Nutrition Timeline",
-        "prenatalTimeline": "Prenatal Timeline",
-        "midUpperArmCircumference": "Mid upper arm circumference (in mm)",
-        "weight": "Weight (kg)",
-        "height": "Height (cm)",
-        "appetite": "Appetite",
-        "diarrhea": "Diarrhea",
-        "dehydration": "Signs of dehydration",
-        "dyspnea": "Dyspnea",
-        "cough": "Cough",
-        "fever": "Fever",
-        "edema1": "Edema 1+",
-        "edema2": "Edema 2+",
-        "rutf": "RUTF",
-        "numberOfRutfSachetsDispensed": "RUTF (# of sachets)",
-        "supplement1": "Supplement #1 (# of units)",
-        "supplement2": "Supplement #2 (# of units)",
-        "supplement3": "Supplement #3 (# of units)",
-        "albendazole": "Albendazole",
-        "ampicillin": "Ampicillin",
-        "chlorineAquatabs": "Chlorine/Aquatabs",
-        "oralRehydrationSalts": "Oral rehydration salts",
-        "transportationStipend": "Transportation stipend",
-        "other": "Other",
-        "visitNumber": "Visit number for this pregnancy",
-        "gravidityAndParity": "Gravidity & Parity",
-        "folate": "Folate (# of days of treatment)",
-        "iron": "Iron (# of days of treatment)",
-        "prenatalMultivitamines": "Prenatal Multivitamines (# of days of treatment)",
-        "calcium": "Calcium (# of days of treatment)",
-        "aspirin": "Aspirin(# of days of treatment)",
-        "chloroquineIfMalaria": "Chloroquine if malaria",
-        "mosquitoNetGiven": "Mosquito net given",
-        "hygieneKitGiven": "Hygiene kit given",
-        "deliveryKitGiven": "Delivery kit given",
-        "nutritionTreatmentGiven": "Nutrition treatment given (# of packets)",
-        "ultrasoundRiskAssessment": "Ultrasound risk assessment"
+        "prenatalTimeline": "Prenatal Timeline"
       },
       "fr": {
         "weightAndGoalWeight": "Poids et poids cible",
         "childNutritionTimeline": "Chronologie de la nutrition de l’enfant",
-        "prenatalTimeline": "Chronologie prénatale",
-        "midUpperArmCircumference": "Circonférence du bras (en mm)",
-        "weight": "Poids (kg)",
-        "height": "Taille (cm)",
-        "appetite": "Appétit",
-        "diarrhea": "Diarrhée",
-        "dehydration": "Signes de déshydratation",
-        "dyspnea": "Dyspnée",
-        "cough": "Toux",
-        "fever": "Fièvre",
-        "edema1": "Œdème 1+",
-        "edema2": "Œdème 2+",
-        "rutf": "RUTF",
-        "numberOfRutfSachetsDispensed": "RUTF (nombre de sachets)",
-        "supplement1": "Supplément nutritionnel 1 (nombre d’unités)",
-        "supplement2": "Supplément nutritionnel 2 (nombre d’unités)",
-        "supplement3": "Supplément nutritionnel 3 (nombre d’unités)",
-        "albendazole": "Albendazole",
-        "ampicillin": "Ampicilline",
-        "chlorineAquatabs": "Pastilles de chlore/Aquatabs",
-        "oralRehydrationSalts": "Sels de réhydratation par voie orale",
-        "transportationStipend": "Allocation de transport",
-        "other": "Autre",
-        "visitNumber": "Numéro de visite pour cette grossesse",
-        "gravidityAndParity": "Gravidité et Parité",
-        "folate": "Folate (# de jours de traitement)",
-        "iron": "Fer (# de jours de traitement)",
-        "prenatalMultivitamines": "Multivitamines prénatales (# de jours de traitement)",
-        "calcium": "Calcium (# de jours de traitement)",
-        "aspirin": "Aspirine (# de jours de traitement)",
-        "chloroquineIfMalaria": "Chloroquine si malaria/paludisme",
-        "mosquitoNetGiven": "Moustiquaire fournie",
-        "hygieneKitGiven": "Kit hygiénique fourni",
-        "deliveryKitGiven": "Kit d’accouchement fourni",
-        "nutritionTreatmentGiven": "Traitement nutritionnel fourni (# de paquets)",
-        "ultrasoundRiskAssessment": "Évaluation du risque après échographie"
+        "prenatalTimeline": "Chronologie prénatale"
       }
     }
   },
