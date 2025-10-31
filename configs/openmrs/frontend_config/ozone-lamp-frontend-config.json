@@ -120,7 +120,8 @@
           },
           "obs-table-horizontal-widget": {
             "title": "childNutritionTimeline",
-            "oldestFirst": true,
+            "maxColumns": 6,
+            "oldestFirst": false,
             "showEncounterType": false,
             "data": [
               {
@@ -249,7 +250,8 @@
           },
           "obs-table-horizontal-widget": {
             "title": "prenatalTimeline",
-            "oldestFirst": true,
+            "maxColumns": 6,
+            "oldestFirst": false,
             "showEncounterType": false,
             "data": [
               {
@@ -298,8 +300,6 @@
     }
   },
   "@openmrs/esm-generic-patient-widgets-app": {
-    "maxColumns": 6,
-    "oldestFirst": true,
     "Translation overrides": {
       "en": {
         "weightAndGoalWeight": "Weight and Goal Weight",
