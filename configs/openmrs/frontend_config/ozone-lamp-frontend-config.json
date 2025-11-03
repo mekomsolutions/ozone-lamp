@@ -1,4 +1,7 @@
 {
+  "@openmrs/esm-primary-navigation-app": {
+    "externalRefLinks": []
+  },
   "@openmrs/esm-patient-medications-app": {
     "daysDurationUnit": {
       "uuid": "327cdb97-571c-2d13-306b-4024fce268cb",
@@ -21,6 +24,11 @@
       }
     ],
     "extensionSlots": {
+      "patient-chart-summary-dashboard-slot": {
+        "remove": [
+          "obs-by-encounter-widget#consultation"
+        ]
+      },
       "patient-chart-dashboard-slot": {
         "add": [
           "dashboard#child-nutrition-program",
@@ -189,6 +197,9 @@
               },
               {
                 "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+              },
+              {
+                "concept": "9c01f218-1f2e-4f1a-9c5e-b9a92f123456"
               }
             ]
           }
@@ -292,6 +303,9 @@
               },
               {
                 "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15"
+              },
+              {
+                "concept": "a203471c-47bc-4706-a288-6f74ecec6932"
               }
             ]
           }
