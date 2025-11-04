@@ -76,6 +76,8 @@
                                         <exclude>distro/configs/**/attributetypes/03_ozone-haiti/*</exclude>
                                         <exclude>distro/configs/**/concepts/03_ozone-haiti/lab_tests.csv</exclude>
                                         <exclude>distro/configs/**/ordertypes/03_ozone-haiti/*</exclude>
+                                        <exclude>distro/configs/**/ampathforms/03_ozone-haiti/ipd_admission_request.json</exclude>
+                                        <exclude>distro/configs/**/ampathforms/03_ozone-haiti/Consultation.json</exclude>
                                     </excludes>
                                 </resource>
                             </resources>
