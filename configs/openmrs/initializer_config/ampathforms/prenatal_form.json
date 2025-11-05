@@ -265,11 +265,11 @@
         {
           "label": "Delivery Information",
           "isExpanded": "true",
+          "hide": {
+            "hideWhenExpression": "currentStateOfPregnancy !== '71fbda44-fdbc-491e-a36d-e6148069c49a'"
+          },
           "questions": [
             {
-              "hide": {
-                "hideWhenExpression": "currentStateOfPregnancy !== '71fbda44-fdbc-491e-a36d-e6148069c49a'"
-              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "date",
@@ -279,9 +279,6 @@
               "datePickerFormat": "calendar"
             },
             {
-              "hide": {
-                "hideWhenExpression": "currentStateOfPregnancy !== '71fbda44-fdbc-491e-a36d-e6148069c49a'"
-              },
               "type": "obs",
               "questionOptions": {
                 "rendering": "radio",
@@ -345,9 +342,6 @@
         {
           "label": "Referral Information",
           "isExpanded": "true",
-          "hide": {
-            "hideWhenExpression": "highRiskPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
-          },
           "questions": [
             {
               "type": "obs",
