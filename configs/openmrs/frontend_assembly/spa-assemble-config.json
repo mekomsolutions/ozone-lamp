@@ -1,6 +1,6 @@
 {
   "frontendModules": {
-    "@openmrs/esm-generic-patient-widgets-app": "11.3.1-pre.9194"
+    "@openmrs/esm-generic-patient-widgets-app": "11.3.1-pre.9220"
   },
   "__comment": "Lamp Overrides",
   "frontendModuleExcludes": [
