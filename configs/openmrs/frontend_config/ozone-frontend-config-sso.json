@@ -4,10 +4,6 @@
       "type": "oauth2",
       "loginUrl": "/openmrs/oauth2login",
       "logoutUrl": "/openmrs/oauth2logout"
-    },
-    "logo": {
-      "src": "configs/lamp_for_haiti.jpg",
-      "alt": "ozone-lamp-logo"
     }
   },
   "@openmrs/esm-primary-navigation-app": {
@@ -22,13 +18,13 @@
       }
     ],
     "logo": {
-      "src": "configs/lamp_for_haiti.jpg",
+      "src": "configs/lamp_for_haiti_white.png",
       "alt": "ozone-lamp-logo"
     }
   },
   "@openmrs/esm-patient-chart-app": {
     "logo": {
-      "src": "configs/lamp_for_haiti.jpg",
+      "src": "configs/lamp_for_haiti_white.png",
       "alt": "ozone-lamp-logo"
     }
   }
