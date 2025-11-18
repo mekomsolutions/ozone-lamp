@@ -113,7 +113,7 @@
             "Translation overrides": {
               "en": {
                 "childNutritionProgramTitle": "Child Nutrition",
-                "cnGoalWeight": "Goal Weight",
+                "cnGoalWeight": "Goal weight",
                 "cnExpectedTreatmentDuration": "Expected treatment duration"
               },
               "fr": {
