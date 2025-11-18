@@ -4,6 +4,10 @@
       "type": "oauth2",
       "loginUrl": "/openmrs/oauth2login",
       "logoutUrl": "/openmrs/oauth2logout"
+    },
+    "logo": {
+      "src": "configs/lamp_for_haiti.jpg",
+      "alt": "ozone-lamp-logo"
     }
   },
   "@openmrs/esm-primary-navigation-app": {
@@ -16,6 +20,16 @@
         "title": "Account Management",
         "redirect": "${KEYCLOAK_URL}/realms/ozone/account/#/"
       }
-    ]
+    ],
+    "logo": {
+      "src": "configs/lamp_for_haiti.jpg",
+      "alt": "ozone-lamp-logo"
+    }
+  },
+  "@openmrs/esm-patient-chart-app": {
+    "logo": {
+      "src": "configs/lamp_for_haiti.jpg",
+      "alt": "ozone-lamp-logo"
+    }
   }
 }
