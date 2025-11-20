@@ -81,10 +81,12 @@
             "graphOldestFirst": true,
             "data": [
               {
+                "title": "weight",
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "graphGroup": "Weight"
               },
               {
+                "title": "goalWeight",
                 "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5",
                 "graphGroup": "Weight"
               }
@@ -112,13 +114,15 @@
             ],
             "Translation overrides": {
               "en": {
+                "weight": "Weight (kg)",
                 "childNutritionProgramTitle": "Child Nutrition",
-                "cnGoalWeight": "Goal weight",
+                "cnGoalWeight": "Goal weight (kg)",
                 "cnExpectedTreatmentDuration": "Expected treatment duration"
               },
               "fr": {
+                "weight": "Poids (kg)",
                 "childNutritionProgramTitle": "Malnutrition infantile",
-                "cnGoalWeight": "Poids cible",
+                "cnGoalWeight": "Poids cible (kg)",
                 "cnExpectedTreatmentDuration": "Durée prévue du traitement"
               }
             }
@@ -133,9 +137,11 @@
                 "concept": "a03415e1-741a-41f5-8671-62216ec0ad40"
               },
               {
+                "title": "weight",
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
+                "title": "height",
                 "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
@@ -313,11 +319,15 @@
   "@openmrs/esm-generic-patient-widgets-app": {
     "Translation overrides": {
       "en": {
+        "weight": "Weight (kg)",
+        "height": "Height (cm)",
         "weightAndGoalWeight": "Weight and Goal Weight",
         "childNutritionTimeline": "Child Nutrition Timeline",
         "prenatalTimeline": "Prenatal Timeline"
       },
       "fr": {
+        "weight": "Poids (kg)",
+        "height": "Taille (cm)",
         "weightAndGoalWeight": "Poids et poids cible",
         "childNutritionTimeline": "Chronologie de la nutrition de l’enfant",
         "prenatalTimeline": "Chronologie prénatale"
