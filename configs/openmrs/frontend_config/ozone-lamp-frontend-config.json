@@ -81,14 +81,14 @@
             "graphOldestFirst": true,
             "data": [
               {
-                "title": "weight",
+                "label": "weight",
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "graphGroup": "Weight"
+                "graphGroup": "Weight (kg)"
               },
               {
-                "title": "goalWeight",
+                "label": "goalWeight",
                 "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5",
-                "graphGroup": "Weight"
+                "graphGroup": "Weight (kg)"
               }
             ]
           },
@@ -137,11 +137,11 @@
                 "concept": "a03415e1-741a-41f5-8671-62216ec0ad40"
               },
               {
-                "title": "weight",
+                "label": "weight",
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
-                "title": "height",
+                "label": "height",
                 "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
