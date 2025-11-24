@@ -16,6 +16,16 @@
         "title": "Account Management",
         "redirect": "${KEYCLOAK_URL}/realms/ozone/account/#/"
       }
-    ]
+    ],
+    "logo": {
+      "src": "configs/lamp_for_haiti_white.png",
+      "alt": "ozone-lamp-logo"
+    }
+  },
+  "@openmrs/esm-patient-chart-app": {
+    "logo": {
+      "src": "configs/lamp_for_haiti_white.png",
+      "alt": "ozone-lamp-logo"
+    }
   }
 }

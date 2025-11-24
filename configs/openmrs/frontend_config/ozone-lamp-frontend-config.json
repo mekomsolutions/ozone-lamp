@@ -81,12 +81,14 @@
             "graphOldestFirst": true,
             "data": [
               {
+                "label": "weight",
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "graphGroup": "Weight"
+                "graphGroup": "Weight (kg)"
               },
               {
+                "label": "goalWeight",
                 "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5",
-                "graphGroup": "Weight"
+                "graphGroup": "Weight (kg)"
               }
             ]
           },
@@ -112,13 +114,15 @@
             ],
             "Translation overrides": {
               "en": {
+                "weight": "Weight (kg)",
                 "childNutritionProgramTitle": "Child Nutrition",
-                "cnGoalWeight": "Goal Weight",
+                "cnGoalWeight": "Goal weight (kg)",
                 "cnExpectedTreatmentDuration": "Expected treatment duration"
               },
               "fr": {
+                "weight": "Poids (kg)",
                 "childNutritionProgramTitle": "Malnutrition infantile",
-                "cnGoalWeight": "Poids cible",
+                "cnGoalWeight": "Poids cible (kg)",
                 "cnExpectedTreatmentDuration": "Durée prévue du traitement"
               }
             }
@@ -133,9 +137,11 @@
                 "concept": "a03415e1-741a-41f5-8671-62216ec0ad40"
               },
               {
+                "label": "weight",
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
+                "label": "height",
                 "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               },
               {
@@ -196,7 +202,7 @@
                 "concept": "26c0366b-83e4-4401-9699-e545219b8870"
               },
               {
-                "concept": "9c01f218-1f2e-4f1a-9c5e-b9a92f123456"
+                "concept": "0ae3326d-592b-4ce0-a523-6e03bbe99b69"
               }
             ]
           }
@@ -313,11 +319,15 @@
   "@openmrs/esm-generic-patient-widgets-app": {
     "Translation overrides": {
       "en": {
+        "weight": "Weight (kg)",
+        "height": "Height (cm)",
         "weightAndGoalWeight": "Weight and Goal Weight",
         "childNutritionTimeline": "Child Nutrition Timeline",
         "prenatalTimeline": "Prenatal Timeline"
       },
       "fr": {
+        "weight": "Poids (kg)",
+        "height": "Taille (cm)",
         "weightAndGoalWeight": "Poids et poids cible",
         "childNutritionTimeline": "Chronologie de la nutrition de l’enfant",
         "prenatalTimeline": "Chronologie prénatale"

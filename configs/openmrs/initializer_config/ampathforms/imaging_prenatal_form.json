@@ -1,11 +1,11 @@
 {
-  "name": "Résultats d’échographie prénatale",
+  "name": "Résultats d’échographie - Prénatale",
   "pages": [
     {
-      "label": "Résultats d’échographie prénatale",
+      "label": "Résultats d’échographie - Prénatale",
       "sections": [
         {
-          "label": "Résultats d’échographie prénatale",
+          "label": "Résultats d’échographie - Prénatale",
           "isExpanded": "true",
           "questions": [
             {
