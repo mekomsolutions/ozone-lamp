@@ -10,11 +10,6 @@
     "restrictByVisitLocationTag": true,
     "visitAttributeTypes": [
       {
-        "uuid": "de5aef5f-74cc-4d36-b79e-0801f3f55bf6",
-        "required": false,
-        "displayInThePatientBanner": false
-      },
-      {
         "uuid": "01830f6b-9c5b-419f-a6f2-e4c47259a941",
         "required": false,
         "displayInThePatientBanner": false
