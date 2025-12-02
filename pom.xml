@@ -70,6 +70,8 @@
                                         <exclude>distro/binaries/openmrs/modules/erp*</exclude>
                                         <exclude>distro/binaries/openmrs/modules/orderexpansion*</exclude>
                                         <exclude>distro/binaries/openmrs/modules/bedmanagement*</exclude>
+                                        <exclude>distro/binaries/openmrs/modules/billing*</exclude>
+                                        <exclude>distro/binaries/openmrs/modules/stockmanagement*</exclude>
 
                                         <exclude>distro/configs/**/locations/03_ozone-haiti/*</exclude>
                                         <exclude>distro/configs/**/visittypes/03_ozone-haiti/*</exclude>

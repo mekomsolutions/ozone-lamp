@@ -26,6 +26,9 @@
           "dashboard#child-nutrition-program",
           "dashboard#prenatal-program"
         ],
+        "remove": [
+          "test-results-summary-dashboard"
+        ],
         "configure": {
           "dashboard#child-nutrition-program": {
             "title": "childNutritionTitle",
@@ -76,12 +79,10 @@
             "graphOldestFirst": true,
             "data": [
               {
-                "label": "weight",
                 "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "graphGroup": "Weight (kg)"
               },
               {
-                "label": "goalWeight",
                 "concept": "25d8b0ad-e95e-454c-bd97-391ea12989c5",
                 "graphGroup": "Weight (kg)"
               }
@@ -405,6 +406,9 @@
       {
         "id": "zone",
         "label": "Zone",
+        "validation": {
+          "required": true
+        },
         "type": "person attribute",
         "uuid": "d4cc7b9c-5337-4d74-83dd-d4dd81fb23c5",
         "placeholder": "placeholder",
