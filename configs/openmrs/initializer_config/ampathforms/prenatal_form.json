@@ -85,6 +85,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "a1cd784a-bb9f-4778-b2d0-8dba8835fa76"
@@ -95,6 +96,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "a1c99856-2f1d-4054-abd6-094233a9d6de"
@@ -105,6 +107,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "af8bb042-1263-43cc-8ac4-00e6aa08e8c6"
@@ -115,6 +118,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "bdb166a5-f264-4e27-afb9-2c2c4a50a6c4"
@@ -125,6 +129,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "96278875-4d38-4caa-9973-c1dfc35918a7"
@@ -200,6 +205,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
                 "disallowDecimals": true,
                 "step": 1,
                 "concept": "5c27dcd7-7d97-4540-8ae7-fb1cc732324f"
