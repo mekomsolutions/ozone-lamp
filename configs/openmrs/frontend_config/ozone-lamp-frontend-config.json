@@ -130,6 +130,12 @@
             "showEncounterType": false,
             "data": [
               {
+                "concept": "0ae3326d-592b-4ce0-a523-6e03bbe99b69"
+              },
+              {
+                "concept": "a7781567-2c1e-4bfd-ad3a-182915722916"
+              },
+              {
                 "concept": "a03415e1-741a-41f5-8671-62216ec0ad40"
               },
               {
@@ -196,9 +202,6 @@
               },
               {
                 "concept": "26c0366b-83e4-4401-9699-e545219b8870"
-              },
-              {
-                "concept": "0ae3326d-592b-4ce0-a523-6e03bbe99b69"
               }
             ]
           }
@@ -265,6 +268,9 @@
             "showEncounterType": false,
             "data": [
               {
+                "concept": "a203471c-47bc-4706-a288-6f74ecec6932"
+              },
+              {
                 "concept": "54f8877e-4a2f-4164-ab7d-fe582244fbaf"
               },
               {
@@ -302,9 +308,6 @@
               },
               {
                 "concept": "a9103e64-08de-4c3e-9b89-35bd307bed15"
-              },
-              {
-                "concept": "a203471c-47bc-4706-a288-6f74ecec6932"
               }
             ]
           }
@@ -663,8 +666,5 @@
         "enabled": true
       }
     }
-  },
-  "@openmrs/esm-patient-programs-app": {
-    "showProgramStatusField": true
   }
 }
