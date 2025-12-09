@@ -1,5 +1,5 @@
 Uuid,Void/Retire,Name,display:en,display:fr,Description,_version:1
-cb97a1a5-216d-43a6-bd11-35b51bbcceed,,General Clinic,General Clinic,Médecine Générale,General Clinic,
+cb97a1a5-216d-43a6-bd11-35b51bbcceed,,Examination by Doctor,Examination by Doctor,Consultation du docteur,Examination by Doctor,
 0451b545-19c0-40ed-a83d-39951611c569,,X-ray,X-ray,Radiologie,X-ray,
 2b980b46-cbc2-4e7f-a820-d8d4bd1be147,,EKG,EKG,ECG,EKG,
 5ce2b543-79bc-4fc9-b220-3b30ab91087d,,Sonograph,Sonograph,Sonographie,Sonograph,
@@ -10,7 +10,8 @@ ba992f29-bafa-40d0-a3aa-9ec0c4050502,,Prenatal,Prenatal,Visite prénatale,Prenat
 e8ed872d-fc6b-42ab-9d1e-f22efbea4431,,Specialized,Specialized,Specialiste,Specialized,
 13947794-236f-4a4f-9e74-dfbd0ab52aaa,,Vaccination,Vaccination,Vaccination,Vaccination,
 2cceea7e-0ff8-4816-948b-93b25a009aaf,,Nutrition,Nutrition,Nutrition,Nutrition,
-8486eca3-c5de-41d1-8330-e6a4083dbd4b,,Community Health,Community Health,Agent de santé,Community Health,
+8486eca3-c5de-41d1-8330-e6a4083dbd4b,,Community Health Worker,Community Health Worker,Community Health Worker,Community Health Worker,
 16405fcd-3f2f-4cbe-b149-6a066b457379,,Nebulizer,Nebulizer,Nébulisateur,Nebulizer,
 7e5cb03f-f16f-4eb5-9a23-92b625763af1,,Education/counselling,Education/counselling,Education et prévention,Education/counselling,
-e12b4352-1e76-4e35-97b9-c38930653867,,Wound care,Wound care,Soins des plaies,Wound care,
+e12b4352-1e76-4e35-97b9-c38930653867,,Urgent Care,Urgent Care,Soins d'urgence,Urgent Care,
+1e321ea0-53fc-4e62-ab39-1cb45150801f,,Mobile clinic,Mobile clinic,Clinique mobile,Mobile clinic,

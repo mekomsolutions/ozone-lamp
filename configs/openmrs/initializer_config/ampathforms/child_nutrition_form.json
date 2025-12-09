@@ -417,6 +417,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "74a12aad-45cc-42f0-a99b-0d503c25654c",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -434,6 +435,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "27b1ab50-5e44-4ff5-9974-0a9791542a23",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
@@ -451,6 +453,7 @@
               "questionOptions": {
                 "rendering": "radio",
                 "concept": "2670dbf0-e52e-440f-aa09-5aca95f52146",
+                "defaultValue": "2120763c-6c49-4133-b532-1e931ab4858a",
                 "answers": [
                   {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
