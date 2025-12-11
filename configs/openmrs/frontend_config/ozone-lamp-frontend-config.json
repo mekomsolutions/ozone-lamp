@@ -352,7 +352,10 @@
   },
   "@openmrs/esm-home-app": {
     "defaultDashboardPerRole": {
-      "System Developer": "patient-lists"
+      "System Developer": "patient-lists",
+      "Doctor": "patient-lists",
+      "Nurse": "patient-lists",
+      "Nurse limited": "patient-lists"
     },
     "extensionSlots": {
       "homepage-dashboard-slot": {
