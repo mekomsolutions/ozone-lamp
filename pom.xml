@@ -272,13 +272,16 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- Compile a dependency report -->
+            <!-- Compile and compare the dependency report -->
             <plugin>
                 <groupId>net.mekomsolutions.maven.plugin</groupId>
                 <artifactId>dependency-tracker-maven-plugin</artifactId>
+                <configuration>
+                    <compare>true</compare>
+                </configuration>
                 <executions>
                     <execution>
-                        <id>Compile dependency report</id>
+                        <id>Compile local dependency report and compare with remote</id>
                         <phase>compile</phase>
                         <goals>
                             <goal>track</goal>
