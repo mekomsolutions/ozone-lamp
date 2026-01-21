@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.ozonehis</groupId>
         <artifactId>maven-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0-alpha.15</version>
     </parent>
 
     <groupId>com.ozonehis</groupId>
@@ -22,10 +22,10 @@
 
         <ozone.artifactId>ozone-haiti</ozone.artifactId>
         <ozone.groupId>com.ozonehis</ozone.groupId>
-        <ozone.version>1.2.0-SNAPSHOT</ozone.version>
+        <ozone.version>1.2.0</ozone.version>
 
-        <ozoneProVersion>1.0.0-SNAPSHOT</ozoneProVersion>
-        <openmrsModuleLamp>1.0.0-SNAPSHOT</openmrsModuleLamp>
+        <ozoneProVersion>1.0.0-alpha.15</ozoneProVersion>
+        <openmrsModuleLamp>1.0.0</openmrsModuleLamp>
         <!-- Classifier for the dependency report artifact -->
         <dependencyReportClassifier>dependencies</dependencyReportClassifier>
     </properties>
