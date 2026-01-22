@@ -40,10 +40,10 @@
   ],
   "processor": "EncounterFormProcessor",
   "encounterType": "693594f5-c52a-4234-911a-8781b336fe14",
-  "encounter": "Utlrasound results  - Other",
+  "encounter": "Utlrasound results - Other",
   "referencedForms": [],
   "uuid": "7a14fbdd-808d-4aed-87cd-5d3034927cd8",
-  "description": "Utlrasound results  - Other",
+  "description": "Utlrasound results - Other",
   "version": "1",
   "published": true,
   "retired": false
