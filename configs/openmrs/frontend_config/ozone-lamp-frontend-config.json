@@ -353,9 +353,14 @@
   "@openmrs/esm-home-app": {
     "defaultDashboardPerRole": {
       "System Developer": "patient-lists",
-      "Doctor": "patient-lists",
-      "Nurse": "patient-lists",
-      "Nurse limited": "patient-lists"
+      "Community Health Worker": "patient-lists",
+      "Doctor/Nurse - Level 2": "patient-lists",
+      "Imaging Technician": "patient-lists",
+      "Laboratory": "patient-lists",
+      "Medical Director - Level 1": "patient-lists",
+      "Nurse (Limited) - Level 3": "patient-lists",
+      "Pharmacy Aide": "patient-lists",
+      "Registration Clerk": "patient-lists"
     },
     "extensionSlots": {
       "homepage-dashboard-slot": {

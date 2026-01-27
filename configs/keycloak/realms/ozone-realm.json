@@ -99,7 +99,7 @@
         },
         {
           "id": "e0628f23-399f-4de8-a871-12e57b4199da",
-          "name": "Nurse limited",
+          "name": "Nurse (Limited) - Level 3",
           "composite": false,
           "clientRole": true,
           "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
@@ -107,7 +107,7 @@
         },
         {
           "id": "ec1da743-fa56-46a8-a5ad-0fea7d77468b",
-          "name": "Doctor",
+          "name": "Medical Director - Level 1",
           "composite": false,
           "clientRole": true,
           "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
@@ -115,7 +115,47 @@
         },
         {
           "id": "4159ed08-a903-44cb-87dc-dcea4fd1e2a2",
-          "name": "Nurse",
+          "name": "Doctor/Nurse - Level 2",
+          "composite": false,
+          "clientRole": true,
+          "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
+          "attributes": {}
+        },
+        {
+          "id": "0d47943e-6be6-4f6a-aef4-f67370c355c0",
+          "name": "Imaging Technician",
+          "composite": false,
+          "clientRole": true,
+          "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
+          "attributes": {}
+        },
+        {
+          "id": "9a40d496-1bd0-47fe-85ed-56b12c6389d8",
+          "name": "Laboratory",
+          "composite": false,
+          "clientRole": true,
+          "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
+          "attributes": {}
+        },
+        {
+          "id": "2363f84d-f5a4-4213-9b82-0a4db4c6a17b",
+          "name": "Pharmacy Aide",
+          "composite": false,
+          "clientRole": true,
+          "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
+          "attributes": {}
+        },
+        {
+          "id": "159e863e-b32b-43bf-ade1-d2056eab18fd",
+          "name": "Registration Clerk",
+          "composite": false,
+          "clientRole": true,
+          "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
+          "attributes": {}
+        },
+        {
+          "id": "5831a519-b531-489c-81b1-3821d419f392",
+          "name": "Community Health Worker",
           "composite": false,
           "clientRole": true,
           "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
