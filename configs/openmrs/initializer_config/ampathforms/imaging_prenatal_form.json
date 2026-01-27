@@ -40,10 +40,10 @@
   ],
   "processor": "EncounterFormProcessor",
   "encounterType": "f0775a7e-953c-40b0-b212-11e07f1d5d00",
-  "encounter": "Utlrasound results - Prenatal",
+  "encounter": "Ultrasound results - Prenatal",
   "referencedForms": [],
   "uuid": "30022eaf-b935-41f4-bbc4-16782f9ebaf5",
-  "description": "Utlrasound results - Prenatal",
+  "description": "Ultrasound results - Prenatal",
   "version": "1",
   "published": true,
   "retired": false
