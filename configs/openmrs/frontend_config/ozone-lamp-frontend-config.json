@@ -3,6 +3,9 @@
     "daysDurationUnit": {
       "uuid": "327cdb97-571c-2d13-306b-4024fce268cb",
       "display": "Day(s)"
+    },
+    "Display conditions": {
+      "privileges": ["View Order Types"]
     }
   },
   "@openmrs/esm-patient-chart-app": {
@@ -34,6 +37,11 @@
             "title": "childNutritionTitle",
             "path": "child-nutrition-program",
             "slot": "child-nutrition-program-dashboard-slot",
+            "Display conditions": {
+              "privileges": [
+                "View Patient Programs"
+              ]
+            },
             "Translation overrides": {
               "en": {
                 "childNutritionTitle": "Child Nutrition"
@@ -47,6 +55,11 @@
             "title": "prenatalTitle",
             "path": "prenatal-program",
             "slot": "prenatal-program-dashboard-slot",
+            "Display conditions": {
+              "privileges": [
+                "View Patient Programs"
+              ]
+            },
             "Translation overrides": {
               "en": {
                 "prenatalTitle": "Prenatal"
@@ -313,6 +326,9 @@
           }
         }
       }
+    },
+    "Display conditions": {
+      "privileges": ["View Patient Summary"]
     }
   },
   "@openmrs/esm-generic-patient-widgets-app": {
@@ -666,6 +682,84 @@
         "emailLabelText": "Adresse email",
         "genderLabelText": "Genre"
       }
+    },
+    "Display conditions": {
+      "privileges": ["Add Patients"]
+    }
+  },
+  "@openmrs/esm-patient-biometrics-app": {
+    "Display conditions": {
+      "privileges": ["Add Vitals and Biometrics"]
+    }
+  },
+    "@openmrs/esm-patient-vitals-app": {
+    "Display conditions": {
+      "privileges": ["Add Vitals and Biometrics"]
+    }
+  },
+    "@openmrs/esm-patient-orders-app": {
+    "Display conditions": {
+      "privileges": ["Get Orders"]
+    }
+  },
+  "@openmrs/esm-patient-immunizations-app": {
+    "Display conditions": {
+      "privileges": ["Add Immunizations"]
+    }
+  },
+  "@openmrs/esm-patient-allergies-app": {
+    "Display conditions": {
+      "privileges": ["Add Allergies"]
+    }
+  },
+  "@openmrs/esm-patient-attachments-app": {
+    "Display conditions": {
+      "privileges": ["Add Attachments"]
+    }
+  },
+  "@openmrs/esm-patient-conditions-app": {
+    "Display conditions": {
+      "privileges": ["Get Conditions"]
+    }
+  },
+  "@openmrs/esm-active-visits-app": {
+    "Display conditions": {
+      "privileges": ["Add Visits"]
+    }
+  },
+  "@openmrs/esm-patient-notes-app": {
+    "Display conditions": {
+      "privileges": ["Get Notes"]
+    }
+  },
+  "@openmrs/esm-patient-forms-app": {
+    "Display conditions": {
+      "privileges": ["View Forms"]
+    }
+  },
+  "@openmrs/esm-devtools-app": {
+    "Display conditions": {
+      "privileges": ["O3 Implementer Tools"]
+    }
+  },
+  "@openmrs/esm-implementer-tools-app": {
+    "Display conditions": {
+      "privileges": ["O3 Implementer Tools"]
+    }
+  },
+  "@openmrs/esm-fast-data-entry-app": {
+    "Display conditions": {
+      "privileges": ["Access Fast Data Entry"]
+    }
+  },
+  "@openmrs/esm-system-admin-app": {
+    "Display conditions": {
+      "privileges": ["View Administration Functions"]
+    }
+  },
+  "@openmrs/esm-patient-programs-app": {
+    "Display conditions": {
+      "privileges": ["Add Patient Programs"]
     }
   },
   "@openmrs/esm-dispensing-app": {
@@ -673,6 +767,9 @@
       "locationFilter": {
         "enabled": true
       }
+    },
+    "Display conditions": {
+      "privileges": ["Get Medication Dispense"]
     }
   }
 }
