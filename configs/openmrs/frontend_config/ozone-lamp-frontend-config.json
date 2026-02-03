@@ -737,11 +737,6 @@
       "privileges": ["View Forms"]
     }
   },
-  "@openmrs/esm-patient-lists-app": {
-    "Display conditions": {
-      "privileges": ["View Patient Lists"]
-    }
-  },
   "@openmrs/esm-devtools-app": {
     "Display conditions": {
       "privileges": ["O3 Implementer Tools"]
