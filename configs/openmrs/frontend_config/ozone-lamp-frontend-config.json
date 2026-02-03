@@ -374,7 +374,7 @@
       "Imaging Technician": "patient-lists",
       "Laboratory": "patient-lists",
       "Medical Director - Level 1": "patient-lists",
-      "Nurse (Limited) - Level 3": "dispensing",
+      "Nurse (Limited) - Level 3": "patient-lists",
       "Pharmacy Aide": "dispensing",
       "Registration Clerk": "patient-lists"
     },
@@ -719,7 +719,7 @@
   },
   "@openmrs/esm-patient-conditions-app": {
     "Display conditions": {
-      "privileges": ["Add Allergies"]
+      "privileges": ["View Conditions App"]
     }
   },
   "@openmrs/esm-active-visits-app": {
