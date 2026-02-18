@@ -23,6 +23,7 @@
         <ozone.artifactId>ozone-haiti</ozone.artifactId>
         <ozone.groupId>com.ozonehis</ozone.groupId>
         <ozone.version>1.2.0</ozone.version>
+        <fhir2.version>3.0.0-20260210.162315-11</fhir2.version>
 
         <ozoneProVersion>1.0.0-alpha.15</ozoneProVersion>
         <openmrsModuleLamp>1.0.0</openmrsModuleLamp>
@@ -46,7 +47,7 @@
         <dependency>
             <groupId>org.openmrs.module</groupId>
             <artifactId>fhir2-omod</artifactId>
-            <version>3.0.0-SNAPSHOT</version>
+            <version>${fhir2.version}</version>
         </dependency>
     </dependencies>
 
