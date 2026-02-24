@@ -23,7 +23,7 @@
         <ozone.artifactId>ozone-haiti</ozone.artifactId>
         <ozone.groupId>com.ozonehis</ozone.groupId>
         <ozone.version>1.2.0</ozone.version>
-        <fhir2.version>3.0.0-20260210.162315-11</fhir2.version>
+        <fhir2.version>3.0.0</fhir2.version>
 
         <ozoneProVersion>1.0.0-alpha.15</ozoneProVersion>
         <openmrsModuleLamp>1.0.0</openmrsModuleLamp>
