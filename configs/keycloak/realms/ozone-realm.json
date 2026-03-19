@@ -154,6 +154,22 @@
           "attributes": {}
         },
         {
+          "id": "df3474b7-d918-443c-a9e2-432ec2f0532b",
+          "name": "Nurse - Women's Clinic",
+          "composite": false,
+          "clientRole": true,
+          "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
+          "attributes": {}
+        },
+        {
+          "id": "22619144-f397-4a26-911e-59ab7bb8f28b",
+          "name": "Nurse - Child Nutrition",
+          "composite": false,
+          "clientRole": true,
+          "containerId": "d8da28c8-7bb9-4df4-a1ae-b5711d2a7536",
+          "attributes": {}
+        },
+        {
           "id": "5831a519-b531-489c-81b1-3821d419f392",
           "name": "Community Health Worker",
           "composite": false,

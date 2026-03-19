@@ -375,6 +375,8 @@
       "Laboratory": "patient-lists",
       "Medical Director - Level 1": "patient-lists",
       "Nurse (Limited) - Level 3": "patient-lists",
+      "Nurse - Women's Clinic": "patient-lists",
+      "Nurse - Child Nutrition": "patient-lists",
       "Pharmacy Aide": "dispensing",
       "Registration Clerk": "patient-lists"
     },
